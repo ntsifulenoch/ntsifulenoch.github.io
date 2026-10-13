@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Economics at the [University of Barcelona](https://www.ub.edu/) (expected completion: June 2027) and a member of the [IEB](https://ieb.ub.edu/en/researcher/ntsiful-enoch/) and [GiM](https://www.ub.edu/gim/) research groups. My doctoral research focuses on sustainable cooling and heating solutions for vulnerable communities, with particular attention to energy access, climate adaptation and welfare outcomes.
+I am a PhD candidate in Economics at the [University of Barcelona](https://www.ub.edu/) (expected completion: June 2027) and a member of the [IEB](https://ieb.ub.edu/en/researcher/ntsiful-enoch/) and [GiM](https://www.ub.edu/gim/) research groups. My doctoral research focuses on analysing sustainable technologies as solutions for vulnerable communities, with particular attention to energy access, climate adaptation and welfare outcomes.
 
 **Primary fields:** development economics, environmental economics, energy economics  
 **Secondary fields:** health economics, international trade, labour economics, gender economics, applications of machine learning in economics
