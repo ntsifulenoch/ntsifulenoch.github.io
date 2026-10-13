@@ -6,16 +6,16 @@ Personal academic website of Enoch Ntsiful, PhD candidate in Economics at the Un
 
 | To change | Edit |
 |---|---|
-| Home page: bio, job market paper card, references, contact | `_pages/about.md` |
+| Home page: welcome, bio, education, fields, contact | `_pages/about.md` |
 | What's new (dated news list) | `_pages/news.md` |
-| Papers (JMP, working papers, publications, work in progress) | `_pages/research.md` |
+| Papers: job market paper card (top), working papers, publications, work in progress | `_pages/research.md` |
 | Policy brief, videos, interviews, competitions | `_pages/media.md` |
 | Presentations and webinars | `_pages/conferences.md` |
 | Teaching and guest talks | `_pages/teaching.md` |
 | Mini-courses | `_pages/mini-courses.md` |
 | CV page ("Click here for the latest CV") | `_pages/cv.md` |
 | CV (LaTeX source, also on Overleaf) | `cv/resume_ntsiful.tex` |
-| Sidebar (photo, links, job-market badge) and site settings | `_config.yml` |
+| Sidebar (photo, links, job-market badge) and site settings | `_config.yml`, `_includes/author-profile.html` |
 | Top menu | `_data/navigation.yml` |
 | Colours, fonts, buttons, cards | `_sass/_custom.scss` |
 | Photo | `images/profile.jpg` |

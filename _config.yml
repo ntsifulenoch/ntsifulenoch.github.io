@@ -24,11 +24,11 @@ author:
   uri              :
   email            : "enoch.ntsiful@ub.edu"
 
-  # Job-market badge and quick links (rendered by _includes/author-profile.html)
+  # Job-market badge (not a link) and the sidebar's Job Market Paper link
+  # (rendered by _includes/author-profile.html)
   job_market:
     label          : "On the 2026–27 job market"
-    jmp_url        : "/files/Ntsiful_JMP.pdf"
-    cv_url         : "/files/Enoch_Ntsiful_CV.pdf"
+    jmp_url        : "/research/#job-market-paper"
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=LemFgSsAAAAJ&hl=en"
