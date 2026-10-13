@@ -69,7 +69,7 @@ description: "Job market paper, working papers, publications and work in progres
   </div>
 </div>
 
-## Publications
+## Peer-reviewed publications
 
 <div class="paper">
   <p class="paper__title">Effect of electricity access on the value of women's labour and time in Ghana</p>
