@@ -13,7 +13,7 @@ Recent and upcoming talks, awards and policy writing.
   <li><span class="dated__when">Oct 2026</span><span>Presented the off-grid paper at the 3rd Early Career Workshop on Applied Environmental &amp; Climate Change Economics (AECCE), Università di Urbino Carlo Bo, Italy.</span></li>
   <li><span class="dated__when">Sep 2026</span><span>Talk for PhD students at KNUST, <em>Practical steps toward a reproducible research</em>, based on UB's BESTEPS guide. <a href="/teaching/#guest-talks-and-mentoring">Details</a></span></li>
   <li><span class="dated__when">May 2026</span><span>Talk on off-grid technologies at UB's Global Sustainability Hub. <a href="/media/#video">Video</a></span></li>
-  <li><span class="dated__when">Feb 2026</span><span>Presented my job market paper at the 2026 UB|IREA Annual Conference, where it received the IREA Best Working Paper Award, and <em>Bridging the divide</em> working paper at the 1st BCN Development Economics Workshop.</span></li>
+  <li><span class="dated__when">Feb 2026</span><span>Presented my job market paper at the 2026 UB|IREA Annual Conference, where it received the IREA Best Working Paper Award, and also presented <em>Bridging the divide</em> working paper at the 1st BCN Development Economics Workshop.</span></li>
   <li><span class="dated__when">Feb 2026</span><span>Interviewed keynote speakers Antoine Dechezleprêtre and Anna Creti at the XIV IEB International Academic Symposium. <a href="/media/#interviews">Videos</a></span></li>
   <li><span class="dated__when">Dec 2025</span><span>My job market paper won the Best Paper Award at the UB PhD in Economics Workshop.</span></li>
 </ul>
