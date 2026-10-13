@@ -29,11 +29,12 @@ description: "Conference, seminar and workshop presentations by Enoch Ntsiful."
   <li><span class="dated__when">Oct 2025</span><span>III Workshop on Development Economics in Spain (SPANDE), CUNEF University, Madrid</span></li>
   <li><span class="dated__when">Sep 2025</span><span>III PhD Conference in Social Sciences and Economics, Sapienza University of Rome</span></li>
   <li><span class="dated__when">Jul 2025</span><span>9th International PhD Meeting in Economics, University of Macedonia, Thessaloniki</span></li>
-  <li><span class="dated__when">Jun 2025</span><span>Centre for Social Policy Studies, University of Ghana</span></li>
+  <li><span class="dated__when">Jun 2025</span><span>Centre for Social Policy Studies, University of Ghana, Legon</span></li>
   <li><span class="dated__when">May 2025</span><span>BSE Jamboree, 12th edition, Universitat Autònoma de Barcelona</span></li>
   <li><span class="dated__when">May 2025</span><span>III PhD Research Horizons Seminar, Kozminski University, Warsaw</span></li>
   <li><span class="dated__when">2023–2025</span><span>International Conference on Empirical Economics (ICEE), Penn State Altoona, USA, online (2023, 2024, 2025)</span></li>
 </ul>
+
 
 ## Webinars attended
 
