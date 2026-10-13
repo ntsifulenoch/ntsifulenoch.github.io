@@ -64,15 +64,21 @@ if ($LASTEXITCODE -ne 0) {
   if ($LASTEXITCODE -ne 0) { Stop-Sync "could not commit the rebuilt CV PDF." }
 }
 
-# 5. This computer -> GitHub and Overleaf
+# 5. This computer -> Overleaf (the CV), then GitHub
+#    "split --rejoin" records what was sent to Overleaf in this history, so the next
+#    sync does not pull it back as an empty merge.
+Write-Host "==> Sending the CV to Overleaf"
+$split = git subtree split --prefix=cv --rejoin
+if ($LASTEXITCODE -ne 0 -or -not $split) { Stop-Sync "could not prepare the CV for Overleaf." }
+$split = ([string]($split | Select-Object -Last 1)).Trim()
+git push overleaf "${split}:main"
+if ($LASTEXITCODE -ne 0) { Stop-Sync "the push to Overleaf failed. If the CV was edited on Overleaf meanwhile, run this again." }
+
 if ($hasGitHub) {
   Write-Host "==> Sending everything to GitHub"
   git push origin master
   if ($LASTEXITCODE -ne 0) { Stop-Sync "the push to GitHub failed." }
 }
-Write-Host "==> Sending the CV to Overleaf"
-git subtree push --prefix=cv overleaf main
-if ($LASTEXITCODE -ne 0) { Stop-Sync "the push to Overleaf failed." }
 
 Write-Host ""
 Write-Host "In sync: this computer, GitHub and Overleaf." -ForegroundColor Green
