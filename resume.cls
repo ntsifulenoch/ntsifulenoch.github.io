@@ -20,7 +20,7 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[12pt,letterpaper]{article} % Font size and paper type
+\LoadClass[11pt,a4paper]{article} % Font size and paper type (11pt A4 keeps the CV to three pages)
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
