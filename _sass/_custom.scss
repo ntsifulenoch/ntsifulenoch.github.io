@@ -28,6 +28,9 @@ $card          : #f6f8fa;
   --card-bg                          : #{$card};
   --badge-bg                         : #{$accent};
   --badge-text                       : #fff;
+  --jmp-bg                           : #eef4fb;
+  --jmp-border                       : #c9daee;
+  --award-color                      : #b7791f;
 }
 
 html[data-theme="dark"] {
@@ -47,6 +50,9 @@ html[data-theme="dark"] {
   --card-bg                          : #161b22;
   --badge-bg                         : #6cb6ff;
   --badge-text                       : #0d1117;
+  --jmp-bg                           : #0f1d2e;
+  --jmp-border                       : #24405e;
+  --award-color                      : #e3b341;
 }
 
 /* Typography
@@ -127,24 +133,55 @@ html {
   }
 }
 
-// Wide screens (where the sidebar is pinned): a larger photo on the home page.
-// The sidebar widens by $home-photo-extra and the page text moves right by the
-// same amount, into the empty right margin, so the text column keeps its width.
-// On very wide screens the photo stops at $home-photo-max, which keeps a 40px gap
-// between the photo and the text (the theme leaves only 14px there).
-$home-photo-extra: 60px;
-$home-photo-max: 284px;
-
-@media screen and (min-width: $sidebar-screen-min-width) {
+// Home page on laptops and desktops: two columns. Left: the photo, about twice the
+// size used on other pages, with the profile and links under it. Right: the
+// introduction. On this page the sidebar scrolls with the page instead of staying
+// pinned, because it is much taller than on the other pages.
+@include breakpoint($large) {
   .is-home {
-    .sidebar {
-      width: calc(#{span(2 of 12)} + #{$home-photo-extra});
-      max-width: $home-photo-max;
+    #main {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+      column-gap: 3em;
+      align-items: start;
+
+      &::after {
+        display: none; // the theme's clearfix would become an empty grid cell
+      }
     }
 
-    .page__inner-wrap {
-      position: relative;
-      left: $home-photo-extra;
+    .sidebar {
+      position: static;
+      float: none;
+      width: auto;
+      max-width: none;
+      height: auto;
+      margin: 0;
+      // The theme's script sets this inline (to clear the pinned top menu), so
+      // only !important can undo it; here the sidebar is no longer pinned.
+      padding-top: 0 !important;
+      overflow: visible;
+    }
+
+    .page {
+      float: none;
+      width: auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar .author__name {
+      font-size: 1.5em;
+    }
+
+    // Two columns of links keep the profile compact under the large photo
+    .author__urls {
+      columns: 2;
+      column-gap: 1.5em;
+
+      li {
+        break-inside: avoid;
+      }
     }
   }
 }
@@ -158,22 +195,19 @@ $home-photo-max: 284px;
   color: var(--global-text-color-light);
 }
 
+// A label, not a link
 .jm-badge {
   display: inline-block;
   margin: 0.4em 0 0.6em;
   padding: 0.3em 0.8em;
   border-radius: 999px;
   background: var(--badge-bg);
-  color: var(--badge-text) !important;
+  color: var(--badge-text);
   font-size: 0.72rem;
   font-weight: 600;
   line-height: 1.4;
-  text-decoration: none !important;
   white-space: nowrap;
-
-  &:hover {
-    filter: brightness(1.12);
-  }
+  cursor: default;
 }
 
 .author__urls .author__key-link a {
@@ -260,44 +294,61 @@ $home-photo-max: 284px;
   }
 }
 
-/* Job market paper card
+/* Job market paper card (top of the Research page): set apart from everything
+   else on the page by a tinted background, a thick accent border and award icons
    ========================================================================== */
 
 .jmp-card {
-  margin: 1em 0 1.75em;
-  padding: 1.1em 1.25em;
-  border: 1px solid var(--global-border-color);
-  border-left: 4px solid var(--global-link-color);
-  border-radius: 6px;
-  background: var(--card-bg);
+  margin: 0.5em 0 2.5em;
+  padding: 1.4em 1.6em 1.3em;
+  border: 1px solid var(--jmp-border);
+  border-left: 6px solid var(--global-link-color);
+  border-radius: 8px;
+  background: var(--jmp-bg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  // the sidebar link jumps here; keep the card clear of the fixed top menu
+  scroll-margin-top: calc(#{$masthead-height} + 1.5em);
 
   p {
-    margin: 0.5em 0;
+    margin: 0.6em 0;
   }
 
   .jmp-card__label {
-    margin: 0 0 0.3em;
-    color: var(--global-text-color-light);
-    font-size: 0.72em;
+    margin: 0 0 0.35em;
+    color: var(--global-link-color);
+    font-size: 0.75em;
     font-weight: 700;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
   .jmp-card__title {
-    margin: 0 0 0.2em;
-    font-size: 1.2em;
+    margin: 0 0 0.25em;
+    font-size: 1.35em;
     font-weight: 700;
     line-height: 1.3;
-
-    a {
-      text-decoration: none;
-    }
   }
 
   .jmp-card__authors {
-    margin: 0 0 0.6em;
+    margin: 0 0 0.7em;
     color: var(--global-text-color-light);
+  }
+
+  .jmp-card__awards {
+    margin: 0 0 0.9em;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0.15em 0;
+      font-size: 0.95em;
+      font-weight: 600;
+    }
+
+    i {
+      margin-right: 0.35em;
+      color: var(--award-color);
+    }
   }
 
   .jmp-card__note {
@@ -397,26 +448,6 @@ $home-photo-max: 284px;
     width: 100%;
     height: 100%;
     border: 0;
-  }
-}
-
-/* References grid on the home page
-   ========================================================================== */
-
-.refs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
-  gap: 1em 1.5em;
-  margin: 0.75em 0 1.5em;
-
-  p {
-    margin: 0;
-    font-size: 0.92em;
-    line-height: 1.5;
-  }
-
-  strong {
-    font-size: 1.05em;
   }
 }
 

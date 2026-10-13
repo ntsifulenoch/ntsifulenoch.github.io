@@ -4,26 +4,27 @@ title: "Research"
 description: "Job market paper, working papers, publications and work in progress by Enoch Ntsiful."
 ---
 
-## Job market paper
-
-<div class="paper" id="jmp">
-  <p class="paper__title"><a href="/files/Ntsiful_JMP.pdf">Refrigeration, Food Security, and Nutrition: Evidence from Ghana</a></p>
-  <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> · IREA Best Working Paper Award (2026) · Best Paper Award, UB PhD in Economics Workshop (2025)</p>
+{% comment %} The job market paper card. The sidebar's "Job Market Paper" link points here
+   (#job-market-paper). Only the latest PDF is linked; the title is deliberately not a link. {% endcomment %}
+<div class="jmp-card" id="job-market-paper">
+  <p class="jmp-card__label">Job Market Paper</p>
+  <p class="jmp-card__title">Refrigeration, Food Security, and Nutrition: Evidence from Ghana</p>
+  <p class="jmp-card__authors">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a></p>
+  <ul class="jmp-card__awards">
+    <li><i class="fas fa-fw fa-award" aria-hidden="true"></i>IREA Best Working Paper Award (January 2026)</li>
+    <li><i class="fas fa-fw fa-award" aria-hidden="true"></i>Best Paper Award, UB PhD in Economics Workshop (December 2025)</li>
+  </ul>
+  <p>Food insecurity in low-income countries is typically analysed through agricultural production and purchasing power, with little attention paid to downstream food distribution. We study the welfare consequences of disruptions in final-stage food storage. Our identification exploits appliance breakdowns in Ghana, comparing households with functioning and broken refrigerators purchased at the same time and at similar prices. Breakdowns increase perceived food insecurity by one-third and reduce consumption of animal-sourced foods, lowering intake of vitamin B12. These findings highlight household refrigeration as an underappreciated lever to improve diets and reduce widespread micronutrient deficiencies as electrification rapidly expands.</p>
+  <p class="jmp-card__note"><em>JEL:</em> I14, I15, Q49, O13 · <em>Keywords:</em> refrigerator, food expenditure, food security, sustainable cooling, Ghana<br>An earlier version circulated as IREA Working Paper IR25/23, <em>Refrigeration, Diets and Human Health: Evidence from Ghana</em>.</p>
   <div class="links">
-    <a class="btn-pill btn-pill--solid" href="/files/Ntsiful_JMP.pdf">PDF</a>
-    <a class="btn-pill" href="https://hdl.handle.net/2445/225792">Earlier version: IREA WP IR25/23</a>
-    <details open>
-      <summary>Abstract</summary>
-      <p>Food insecurity in low-income countries is typically analysed through agricultural production and purchasing power, with little attention paid to downstream food distribution. We study the welfare consequences of disruptions in final-stage food storage. Our identification exploits appliance breakdowns in Ghana, comparing households with functioning and broken refrigerators purchased at the same time and at similar prices. Breakdowns increase perceived food insecurity by one-third and reduce consumption of animal-sourced foods, lowering intake of vitamin B12. These findings highlight household refrigeration as an underappreciated lever to improve diets and reduce widespread micronutrient deficiencies as electrification rapidly expands.</p>
-      <p><em>JEL:</em> I14, I15, Q49, O13 · <em>Keywords:</em> refrigerator, food expenditure, food security, sustainable cooling, Ghana</p>
-    </details>
+    <a class="btn-pill btn-pill--solid btn-pill--large" href="/files/Ntsiful_JMP.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Latest version (PDF)</a>
   </div>
 </div>
 
 
 ## Working papers
 
-{% comment %} Coauthor names are plain text except François Cohen and Jordi J. Teixidó (the user's choice). {% endcomment %}
+{% comment %} Coauthor names are plain text except François Cohen, Jordi J. Teixidó and Patrick Fahr (the user's choice). {% endcomment %}
 
 <div class="paper">
   <p class="paper__title">Large-Scale Evidence on the Benefits from Off-Grid Technologies</p>

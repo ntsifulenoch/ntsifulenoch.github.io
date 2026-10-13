@@ -19,19 +19,17 @@
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.job_market.label %}
-      <a class="jm-badge" href="{{ base_path }}/#job-market-paper">{{ author.job_market.label }}</a>
+      <span class="jm-badge">{{ author.job_market.label }}</span>
     {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Contact &amp; links</button>
     <ul class="author__urls social-icons">
-      <!-- Job-market documents first: the two things recruiters look for -->
+      {% comment %} Job market paper first: it opens the JMP section of the Research page.
+         The CV has its own page in the top menu, so it is not repeated here. {% endcomment %}
       {% if author.job_market.jmp_url %}
-        <li class="author__key-link"><a href="{{ base_path }}{{ author.job_market.jmp_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>Job Market Paper</a></li>
-      {% endif %}
-      {% if author.job_market.cv_url %}
-        <li class="author__key-link"><a href="{{ base_path }}{{ author.job_market.cv_url }}"><i class="fas fa-fw fa-file-lines icon-pad-right" aria-hidden="true"></i>CV</a></li>
+        <li class="author__key-link"><a href="{{ base_path }}{{ author.job_market.jmp_url }}"><i class="fas fa-fw fa-star icon-pad-right" aria-hidden="true"></i>Job Market Paper</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Biographic information  -->
