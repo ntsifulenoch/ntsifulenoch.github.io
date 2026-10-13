@@ -31,8 +31,8 @@ I am a PhD candidate in Economics at the [University of Barcelona](https://www.u
 <ul class="dated">
   <li><span class="dated__when">Dec 2026</span><span>Presenting <em>Large-Scale Evidence on the Benefits from Off-Grid Technologies</em> at SAEe 2026, Universidad de Las Palmas de Gran Canaria. <span class="status">Upcoming</span></span></li>
   <li><span class="dated__when">Nov 2026</span><span>Presenting the same paper at the 2nd BCN Development Economics workshop, UAB, on 6 November. <span class="status">Upcoming</span></span></li>
-  <li><span class="dated__when">Oct 2026</span><span>Policy brief <em>Unlocking Climate Adaptation at COP31</em>, with François Cohen and Patrick Fahr, in <em>Les Cahiers de l'Environnement</em>; copies go to major news outlets from late October. <a href="/media/#cop31">Recommendations</a></span></li>
-  <li><span class="dated__when">Oct 2026</span><span>Presented the off-grid paper at the 3rd Early Career Workshop on Applied Environmental &amp; Climate Change Economics (AECCE), University of Urbino.</span></li>
+  <li><span class="dated__when">Oct 2026</span><span>Policy brief <em>Unlocking Climate Adaptation at COP31</em>, with François Cohen and Patrick Fahr, in <em>Les Cahiers de l'Environnement</em>; copies go to major news outlets from early November <a href="/media/#cop31">Recommendations</a></span></li>
+  <li><span class="dated__when">Oct 2026</span><span>Presented the off-grid paper at the 3rd Early Career Workshop on Applied Environmental &amp; Climate Change Economics (AECCE), Università di Urbino Carlo Bo, Italy.</span></li>
   <li><span class="dated__when">Sep 2026</span><span>Talk for PhD students at KNUST, <em>Practical steps toward a reproducible research</em>, based on UB's BESTEPS guide. <a href="/teaching/#guest-talks-and-mentoring">Details</a></span></li>
   <li><span class="dated__when">May 2026</span><span>Talk on off-grid technologies at UB's Global Sustainability Hub. <a href="/media/#video">Video</a></span></li>
   <li><span class="dated__when">Feb 2026</span><span>Presented my job market paper at the 2026 UB|IREA Annual Conference, where it received the IREA Best Working Paper Award, and <em>Bridging the divide</em> at the 1st BCN Development Economics Workshop.</span></li>
@@ -50,7 +50,8 @@ I am a PhD candidate in Economics at the [University of Barcelona](https://www.u
 
 ## Contact
 
-[enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu)  
+E-mail: [enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu)  
+Alt. e-mail: [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)
 Department of Econometrics, Statistics and Applied Economics  
 Faculty of Economics and Business, University of Barcelona  
 John Maynard Keynes 1–11, 08034 Barcelona, Spain
