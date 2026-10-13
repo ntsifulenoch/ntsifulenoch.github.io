@@ -1,0 +1,178 @@
+# Site configuration for Enoch Ntsiful's academic website.
+# Jekyll does NOT reload this file while `jekyll serve` is running:
+# restart the server after editing it.
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # colours are overridden in _sass/_custom.scss
+title                    : "Enoch Ntsiful"
+title_separator          : "-"
+name                     : &name "Enoch Ntsiful"
+description              : &description "Enoch Ntsiful, PhD Candidate in Economics at the University of Barcelona (IEB). Development, environmental and energy economics. On the 2026-27 job market."
+url                      : https://ntsifulenoch.github.io
+baseurl                  : ""
+repository               : "ntsifulenoch/ntsifulenoch.github.io"
+
+# Sidebar profile. A blank field hides its link.
+author:
+  avatar           : "profile.jpg"
+  name             : "Enoch Ntsiful"
+  pronouns         :
+  bio              : "PhD Candidate in Economics"
+  location         : "Barcelona, Spain"
+  employer         : "University of Barcelona"
+  uri              :
+  email            : "enoch.ntsiful@ub.edu"
+
+  # Job-market badge and quick links (rendered by _includes/author-profile.html)
+  job_market:
+    label          : "On the 2026–27 job market"
+    jmp_url        : "/files/Ntsiful_JMP.pdf"
+    cv_url         : "/files/Enoch_Ntsiful_CV.pdf"
+
+  # Academic websites
+  googlescholar    : "https://scholar.google.com/citations?user=LemFgSsAAAAJ&hl=en"
+  orcid            : "https://orcid.org/0000-0002-4432-3229"
+  researchgate     :
+  ssrn             :
+
+  # Social media
+  bluesky          : "ntsiful-enoch.bsky.social"
+  linkedin         : "enoch-ntsiful-886988251"
+  github           :
+  twitter          :
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+comments:
+  provider               : false
+atom_feed:
+  hide                   : true
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+
+# Social Sharing
+twitter:
+  username               :
+og_image                 : "profile.jpg"
+og_description           : *description
+social:
+  type                   : Person
+  name                   : *name
+  links:
+    - "https://orcid.org/0000-0002-4432-3229"
+    - "https://scholar.google.com/citations?user=LemFgSsAAAAJ"
+    - "https://www.linkedin.com/in/enoch-ntsiful-886988251"
+    - "https://bsky.app/profile/ntsiful-enoch.bsky.social"
+
+# Analytics
+analytics:
+  provider               : false
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - vendor
+  # Not part of the website pages (cv/ is the Overleaf clone; its PDF is copied into files/)
+  - CLAUDE.md
+  - plans
+  - docs
+  - cv
+  - scripts
+  - photos
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# All content lives in single pages under _pages/ (no collections).
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Europe/Madrid
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
