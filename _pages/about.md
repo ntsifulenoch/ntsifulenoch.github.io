@@ -43,8 +43,7 @@ Outside academia, I enjoy music and playing musical instruments.
 
 ## Contact
 
-E-mail: [enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu)  
-Alt. e-mail: [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)  
+E-mails: [enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu) || [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)   
 Department of Econometrics, Statistics and Applied Economics  
 Faculty of Economics and Business, University of Barcelona  
 John Maynard Keynes 1–11, 08034 Barcelona, Spain
