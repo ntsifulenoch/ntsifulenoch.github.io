@@ -1,0 +1,401 @@
+/* ==========================================================================
+   SITE SKIN
+   Plain, readable, one accent colour. Imported last in assets/css/main.scss,
+   so everything here overrides the theme defaults.
+   ========================================================================== */
+
+$accent        : #1d4e89;
+$accent-dark   : #163d6b;
+$ink           : #1f2328;
+$muted         : #57606a;
+$line          : #d0d7de;
+$card          : #f6f8fa;
+
+:root {
+  --global-base-color                : #{$accent};
+  --global-bg-color                  : #fff;
+  --global-footer-bg-color           : #{$card};
+  --global-border-color              : #{$line};
+  --global-dark-border-color         : #afb8c1;
+  --global-link-color                : #{$accent};
+  --global-link-color-hover          : #{$accent-dark};
+  --global-link-color-visited        : #{$accent};
+  --global-masthead-link-color       : #{$ink};
+  --global-masthead-link-color-hover : #{$accent};
+  --global-text-color                : #{$ink};
+  --global-text-color-light          : #{$muted};
+  --global-thead-color               : #{$card};
+  --card-bg                          : #{$card};
+  --badge-bg                         : #{$accent};
+  --badge-text                       : #fff;
+}
+
+html[data-theme="dark"] {
+  --global-base-color                : #6cb6ff;
+  --global-bg-color                  : #0d1117;
+  --global-footer-bg-color           : #161b22;
+  --global-border-color              : #30363d;
+  --global-dark-border-color         : #484f58;
+  --global-link-color                : #6cb6ff;
+  --global-link-color-hover          : #a5d6ff;
+  --global-link-color-visited        : #6cb6ff;
+  --global-masthead-link-color       : #e6edf3;
+  --global-masthead-link-color-hover : #6cb6ff;
+  --global-text-color                : #e6edf3;
+  --global-text-color-light          : #9da7b3;
+  --global-thead-color               : #161b22;
+  --card-bg                          : #161b22;
+  --badge-bg                         : #6cb6ff;
+  --badge-text                       : #0d1117;
+}
+
+/* Typography
+   ========================================================================== */
+
+html {
+  @media screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+}
+
+.page__content {
+  line-height: 1.65;
+
+  p,
+  li {
+    max-width: 72ch;
+  }
+
+  h2 {
+    margin-top: 1.8em;
+    padding-bottom: 0.3em;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  h3 {
+    font-size: 1.05em;
+    font-weight: 600;
+  }
+
+  a {
+    text-underline-offset: 0.15em;
+  }
+}
+
+.page__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.greedy-nav a {
+  font-weight: 500;
+}
+
+/* Sidebar: rectangular photo, job-market badge, key links
+   ========================================================================== */
+
+.author__avatar img {
+  max-width: 100%;
+  border-radius: 0;
+  padding: 0;
+  border: 0;
+
+  @include breakpoint($large) {
+    padding: 0;
+    border: 0;
+  }
+}
+
+// Phones and tablets: the photo is shown in full on the home page only;
+// other pages keep a small rectangle so the content starts high up.
+@media screen and (max-width: 924px) {
+  .author__avatar {
+    width: 84px;
+  }
+
+  .is-home .author__avatar {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.75em;
+
+    img {
+      width: 100%;
+      max-width: 480px;
+    }
+  }
+}
+
+.sidebar .author__name {
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: var(--global-text-color-light);
+}
+
+.jm-badge {
+  display: inline-block;
+  margin: 0.4em 0 0.6em;
+  padding: 0.3em 0.8em;
+  border-radius: 999px;
+  background: var(--badge-bg);
+  color: var(--badge-text) !important;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none !important;
+  white-space: nowrap;
+
+  &:hover {
+    filter: brightness(1.12);
+  }
+}
+
+.author__urls .author__key-link a {
+  font-weight: 600;
+  color: var(--global-link-color);
+}
+
+/* Buttons and abstract toggles
+   ========================================================================== */
+
+.btn-pill,
+.page__content .btn-pill {
+  display: inline-block;
+  padding: 0.15em 0.8em;
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-link-color);
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background: var(--global-link-color);
+    color: var(--global-bg-color);
+    text-decoration: none;
+  }
+
+  &--solid {
+    background: var(--global-link-color);
+    color: var(--global-bg-color);
+  }
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4em;
+  margin: 0.35em 0 0.5em;
+
+  details[open] {
+    flex-basis: 100%;
+  }
+}
+
+.page__content details {
+  margin: 0;
+
+  summary {
+    display: inline-block;
+    padding: 0.15em 0.8em;
+    border: 1px solid var(--global-link-color);
+    border-radius: 999px;
+    color: var(--global-link-color);
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.6;
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  &[open] summary {
+    background: var(--global-link-color);
+    color: var(--global-bg-color);
+  }
+
+  p {
+    margin: 0.6em 0 0.2em;
+    font-size: 0.95em;
+  }
+}
+
+/* Job market paper card
+   ========================================================================== */
+
+.jmp-card {
+  margin: 1em 0 1.75em;
+  padding: 1.1em 1.25em;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-link-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+
+  p {
+    margin: 0.5em 0;
+  }
+
+  .jmp-card__label {
+    margin: 0 0 0.3em;
+    color: var(--global-text-color-light);
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .jmp-card__title {
+    margin: 0 0 0.2em;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.3;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .jmp-card__authors {
+    margin: 0 0 0.6em;
+    color: var(--global-text-color-light);
+  }
+
+  .jmp-card__note {
+    color: var(--global-text-color-light);
+    font-size: 0.9em;
+  }
+}
+
+/* Papers, media items and dated lists
+   ========================================================================== */
+
+.paper {
+  margin: 0 0 1.4em;
+
+  .paper__title {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .paper__meta {
+    margin: 0.1em 0 0.25em;
+    color: var(--global-text-color-light);
+    font-size: 0.95em;
+  }
+}
+
+.status {
+  display: inline-block;
+  margin-left: 0.35em;
+  padding: 0 0.55em;
+  border-radius: 999px;
+  background: var(--card-bg);
+  border: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+  font-size: 0.75em;
+  font-weight: 600;
+  vertical-align: 0.1em;
+}
+
+.dated {
+  margin: 0.5em 0 1.5em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: 7.2em 1fr;
+    gap: 0.9em;
+    max-width: none;
+    padding: 0.45em 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  li:last-child {
+    border-bottom: 0;
+  }
+
+  .dated__when {
+    color: var(--global-text-color-light);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  // Which paper was presented, shown under the event name
+  .dated__paper {
+    display: block;
+    margin-top: 0.1em;
+    color: var(--global-text-color-light);
+    font-size: 0.88em;
+  }
+
+  @media screen and (max-width: 480px) {
+    li {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+}
+
+.key-messages li {
+  margin-bottom: 0.35em;
+}
+
+.video-embed {
+  position: relative;
+  max-width: 720px;
+  margin: 0.75em 0 0.5em;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 6px;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+/* References grid on the home page
+   ========================================================================== */
+
+.refs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
+  gap: 1em 1.5em;
+  margin: 0.75em 0 1.5em;
+
+  p {
+    margin: 0;
+    font-size: 0.92em;
+    line-height: 1.5;
+  }
+
+  strong {
+    font-size: 1.05em;
+  }
+}
+
+/* Footer
+   ========================================================================== */
+
+.page__footer-credit {
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+}

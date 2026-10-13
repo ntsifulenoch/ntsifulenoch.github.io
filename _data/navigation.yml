@@ -1,0 +1,20 @@
+# Order of the links in the top menu. The site title (home) comes first automatically.
+
+main:
+  - title: "Research"
+    url: /research/
+
+  - title: "Media & Policy"
+    url: /media/
+
+  - title: "Conferences"
+    url: /conferences/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Mini-courses"
+    url: /mini-courses/
+
+  - title: "CV"
+    url: /files/Enoch_Ntsiful_CV.pdf
