@@ -75,25 +75,25 @@ description: "Job market paper, working papers, publications and work in progres
 
 <div class="paper">
   <p class="paper__title">Effect of electricity access on the value of women's labour and time in Ghana</p>
-  <p class="paper__meta"><strong>Ntsiful, E.</strong>, Dramani, J. B., Adusah-Poku, F., &amp; Frimpong, P. B. (2024). <em>World Development Perspectives</em>, (Q1)</p>
+  <p class="paper__meta"><strong>Ntsiful, E.</strong>, Dramani, J. B., Adusah-Poku, F., &amp; Frimpong, P. B. (2024). <em>World Development Perspectives</em> (Q1)</p>
   <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.wdp.2024.100614">DOI</a></div>
 </div>
 
 <div class="paper">
   <p class="paper__title">Trade Policy Uncertainty, Trade, and Economic Growth in Africa: What Can the African Continental Free Trade Area (AfCFTA) Offer?</p>
-  <p class="paper__meta">Dramani, J. B., Duodu, E., Tetteh, B., <strong>Ntsiful, E.</strong>, &amp; Frimpong, P. B. (2025). <em>The International Trade Journal</em>, 39(6), (Q3).</p>
+  <p class="paper__meta">Dramani, J. B., Duodu, E., Tetteh, B., <strong>Ntsiful, E.</strong>, &amp; Frimpong, P. B. (2025). <em>The International Trade Journal</em> (Q3)</p>
   <div class="links"><a class="btn-pill" href="https://doi.org/10.1080/08853908.2025.2538861">DOI</a></div>
 </div>
 
 <div class="paper">
   <p class="paper__title">The effects of economic growth, trade liberalization, and financial development on environmental sustainability in West Africa. The role of institutions</p>
-  <p class="paper__meta">Baajike, F. B., <strong>Ntsiful, E.</strong>, Afriyie, A. B., &amp; Oteng-Abayie, E. F. (2022). <em>Research in Globalization</em>, (Q1)</p>
+  <p class="paper__meta">Baajike, F. B., <strong>Ntsiful, E.</strong>, Afriyie, A. B., &amp; Oteng-Abayie, E. F. (2022). <em>Research in Globalization</em> (Q1)</p>
   <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.resglo.2022.100104">DOI</a></div>
 </div>
 
 <div class="paper">
   <p class="paper__title">A comparative analysis of the performances of macroeconomic indicators during the Global Financial Crisis, COVID-19 Pandemic, and the Russia-Ukraine War: The Ghanaian case</p>
-  <p class="paper__meta">Tetteh, B., &amp; <strong>Ntsiful, E.</strong> (2023). <em>Research in Globalization</em>, (Q1)</p>
+  <p class="paper__meta">Tetteh, B., &amp; <strong>Ntsiful, E.</strong> (2023). <em>Research in Globalization</em> (Q1)</p>
   <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.resglo.2023.100174">DOI</a></div>
 </div>
 
@@ -112,7 +112,7 @@ description: "Job market paper, working papers, publications and work in progres
 - ICT Goods Trade and Income Inequality Dynamics: A Global Evidence
 - Sibling Gender, Inheritance Customs Law, and Child Education: Evidence from Patrilineal and Matrilineal Societies in Ghana (with Hardi Ahmed and Kwabena Nkansah)
 - Examining the prospects of the African Continental Free Trade Area (AfCFTA) Agreement: Does trade with South Africa promote growth in the SADC region? (with Bright Tetteh and Josephine Asare)
-- Financial institution development and renewable electricity generation in EMICs and LICs (with Franklin Bedakiyiba Baajike & John Bosco Dramani)
-- Electricity transmission and distributional losses, energy security, and economic growth in Ghana: The role of institutional quality (with Franklin Bedakiyiba Baajike & Asaki Foster)
+- Financial institution development and renewable electricity generation in EMICs and LICs (with Franklin Bedakiyiba Baajike and John Bosco Dramani)
+- Electricity transmission and distributional losses, energy security, and economic growth in Ghana: The role of institutional quality (with Franklin Bedakiyiba Baajike and Asaki Foster)
 - Frontier Technology Readiness, Emissions, and Growth: A Global Decoupling and Decomposition Analysis (with Franklin Bedakiyiba Baajike)
-- When the Rain Fails: The 2015/16 El Nino Drought and Intimate-Partner Violence in South Africa (with Bright Tetteh)
+- When the Rain Fails: The 2015/16 El Niño Drought and Intimate-Partner Violence in South Africa (with Bright Tetteh)

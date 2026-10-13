@@ -1,6 +1,9 @@
 # Order of the links in the top menu. The site title (home) comes first automatically.
 
 main:
+  - title: "What’s new"
+    url: /news/
+
   - title: "Research"
     url: /research/
 
@@ -13,8 +16,8 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "CV"
+    url: /cv/
+
   - title: "Mini-courses"
     url: /mini-courses/
-
-  - title: "CV"
-    url: /files/Enoch_Ntsiful_CV.pdf
