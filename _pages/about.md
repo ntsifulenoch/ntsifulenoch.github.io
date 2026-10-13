@@ -6,6 +6,8 @@ redirect_from:
   - /about.html
 ---
 
+Welcome to my page!
+
 I am a PhD candidate in Economics at the [University of Barcelona](https://www.ub.edu/) (expected completion: June 2027) and a member of the [IEB](https://ieb.ub.edu/en/researcher/ntsiful-enoch/) and [GiM](https://www.ub.edu/gim/) research groups. My doctoral research focuses on analysing sustainable technologies as solutions for vulnerable communities, with particular attention to energy access, climate adaptation and welfare outcomes.
 
 **Primary fields:** development economics, environmental economics, energy economics  
@@ -51,7 +53,7 @@ I am a PhD candidate in Economics at the [University of Barcelona](https://www.u
 ## Contact
 
 E-mail: [enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu)  
-Alt. e-mail: [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)
+Alt. e-mail: [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)  
 Department of Econometrics, Statistics and Applied Economics  
 Faculty of Economics and Business, University of Barcelona  
 John Maynard Keynes 1–11, 08034 Barcelona, Spain
