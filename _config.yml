@@ -71,9 +71,13 @@ social:
     - "https://www.linkedin.com/in/enoch-ntsiful-886988251"
     - "https://bsky.app/profile/ntsiful-enoch.bsky.social"
 
-# Analytics
+# Analytics: private visit and CV/JMP download counts with GoatCounter (no cookies),
+# set up in _includes/analytics-providers/custom.html. After signing up at
+# https://www.goatcounter.com, put your site code after "goatcounter" (the "abc" in
+# abc.goatcounter.com). Left empty, nothing is counted.
 analytics:
-  provider               : false
+  provider               : "custom"
+  goatcounter            :
 
 # Reading Files
 include:

@@ -6,12 +6,14 @@ Personal academic website of Enoch Ntsiful, PhD candidate in Economics at the Un
 
 | To change | Edit |
 |---|---|
-| Home page: bio, job market paper card, What's new, references, contact | `_pages/about.md` |
+| Home page: bio, job market paper card, references, contact | `_pages/about.md` |
+| What's new (dated news list) | `_pages/news.md` |
 | Papers (JMP, working papers, publications, work in progress) | `_pages/research.md` |
 | Policy brief, videos, interviews, competitions | `_pages/media.md` |
 | Presentations and webinars | `_pages/conferences.md` |
 | Teaching and guest talks | `_pages/teaching.md` |
 | Mini-courses | `_pages/mini-courses.md` |
+| CV page ("Click here for the latest CV") | `_pages/cv.md` |
 | CV (LaTeX source, also on Overleaf) | `cv/resume_ntsiful.tex` |
 | Sidebar (photo, links, job-market badge) and site settings | `_config.yml` |
 | Top menu | `_data/navigation.yml` |
@@ -42,6 +44,16 @@ How it is wired: this folder is the GitHub repository. `cv/` is a git subtree of
 
 - Job market paper: replace `files/Ntsiful_JMP.pdf` with the new version, keeping the same name so links never break.
 - CV: never edit the PDF by hand. It is built from `cv/resume_ntsiful.tex`: by `scripts\cv.ps1` on this computer, and automatically on GitHub when the site is built.
+
+## Visitor and download counts (private)
+
+The site can count visits, and every click on a PDF link (the CV and the JMP), with [GoatCounter](https://www.goatcounter.com). It uses no cookies, and the numbers are visible only to you when logged in.
+
+1. Sign up at <https://www.goatcounter.com/signup>. The "code" you choose gives your dashboard address, e.g. `ntsiful` → `https://ntsiful.goatcounter.com`.
+2. In `_config.yml`, put that code after `goatcounter` under `analytics`, e.g. `goatcounter : "ntsiful"`, and commit.
+3. In the dashboard, downloads appear as events named `download/Enoch_Ntsiful_CV.pdf` and `download/Ntsiful_JMP.pdf`. Visits to the CV page appear as `/cv/`.
+
+To keep your own clicks out of the counts, open `https://ntsifulenoch.github.io/#toggle-goatcounter` once in each browser you use. Opening the PDF from a link elsewhere (an email, Google) is not counted; only clicks on the website are.
 
 ## Preview locally (Windows + WSL Ubuntu)
 

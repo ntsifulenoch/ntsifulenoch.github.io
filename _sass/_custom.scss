@@ -127,6 +127,28 @@ html {
   }
 }
 
+// Wide screens (where the sidebar is pinned): a larger photo on the home page.
+// The sidebar widens by $home-photo-extra and the page text moves right by the
+// same amount, into the empty right margin, so the text column keeps its width.
+// On very wide screens the photo stops at $home-photo-max, which keeps a 40px gap
+// between the photo and the text (the theme leaves only 14px there).
+$home-photo-extra: 60px;
+$home-photo-max: 284px;
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .is-home {
+    .sidebar {
+      width: calc(#{span(2 of 12)} + #{$home-photo-extra});
+      max-width: $home-photo-max;
+    }
+
+    .page__inner-wrap {
+      position: relative;
+      left: $home-photo-extra;
+    }
+  }
+}
+
 .sidebar .author__name {
   font-size: 1.15em;
   font-weight: 700;
@@ -186,6 +208,12 @@ html {
   &--solid {
     background: var(--global-link-color);
     color: var(--global-bg-color);
+  }
+
+  // Main call to action, e.g. the link on the CV page
+  &--large {
+    padding: 0.45em 1.25em;
+    font-size: 1rem;
   }
 }
 

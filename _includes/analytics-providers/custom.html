@@ -1,3 +1,26 @@
-<!-- start custom analytics snippet -->
-
-<!-- end custom analytics snippet -->
+{% comment %}
+  Private visit and download counts with GoatCounter (no cookies). The numbers are
+  only visible to the account owner at https://<code>.goatcounter.com.
+  Switched on by `analytics.goatcounter` in _config.yml, and only on the live site.
+  Every click on a link to a PDF (the CV, the JMP) is also counted, as an event
+  named after the file, e.g. "download/Enoch_Ntsiful_CV.pdf".
+  Pages are compressed onto one line in production (_layouts/compress.html), so the
+  script below must not use // comments.
+{% endcomment %}
+{% assign goatcounter = site.analytics.goatcounter | strip %}
+{% if goatcounter != "" and jekyll.environment == "production" %}
+<script data-goatcounter="https://{{ goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>
+  (function () {
+    function countDownload(e) {
+      if (e.type === "auxclick" && e.button !== 1) return; /* middle click only */
+      var link = e.target.closest ? e.target.closest('a[href$=".pdf"]') : null;
+      if (!link || !window.goatcounter || !window.goatcounter.count) return;
+      var file = link.pathname.split("/").pop();
+      window.goatcounter.count({ path: "download/" + file, title: "Download: " + file, event: true });
+    }
+    document.addEventListener("click", countDownload);
+    document.addEventListener("auxclick", countDownload);
+  })();
+</script>
+{% endif %}

@@ -8,7 +8,7 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
 
 <div class="paper" id="cop31">
   <p class="paper__title">Unlocking Climate Adaptation at COP31 <span class="status">Forthcoming</span></p>
-  <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and Patrick Fahr · Highlight, <em>Les Cahiers de l'Environnement</em>, No. 4, Special Edition: COP and Climate Change · copies go to major news outlets from early November 2026</p>
+  <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a> · Highlight, <em>Les Cahiers de l'Environnement</em>, No. 4, Special Edition: COP and Climate Change · copies go to major news outlets from early November 2026</p>
   <p>The brief makes three recommendations for COP31:</p>
   <ol class="key-messages">
     <li><strong>Treat adaptation as an investment.</strong> The commitment to triple adaptation finance is an opportunity to scale up investments with positive economic and social returns.</li>
