@@ -1,0 +1,285 @@
+\documentclass{resume} % resume.cls: 11pt, A4
+
+% Readable job-market layout, about three pages.
+% Sections run from most to least important for the job market.
+\usepackage[left=0.75in,right=0.75in,top=0.6in,bottom=0.7in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{needspace} % keeps section headings with their content
+\usepackage{enumitem}
+\setlist[itemize]{topsep=2pt, itemsep=2pt, parsep=0pt, leftmargin=1.2em, label=\textbullet}
+\linespread{1.03}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+\fancyfoot[C]{\small \thepage}
+\fancyfoot[R]{\small \it Updated: October 2026}
+
+% Spacing: room to scan each section, still about three pages
+\setlength{\parskip}{3pt}
+\def\sectionskip{\vspace{4pt}}
+\def\sectionlineskip{\smallskip}
+\def\nameskip{\smallskip}
+\renewenvironment{rSection}[1]{%
+  \sectionskip
+  \MakeUppercase{{\bf #1}}%
+  \sectionlineskip
+  \hrule
+  \begin{list}{}{\setlength{\leftmargin}{0em}\setlength{\topsep}{5pt}\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}}%
+  \item[]
+}{%
+  \end{list}
+}
+
+% Right-aligned date that never splits across lines
+\newcommand{\when}[1]{\hfill\mbox{#1}}
+
+% Peer-reviewed paper: title, then journal (quartile), then DOI, then authors (year).
+% Use "et al." when a paper has more than two authors.
+\newcommand{\pub}[4]{\item \textbf{#1}\\ #2 \,$\cdot$\, DOI: \href{https://doi.org/#3}{#3} \,$\cdot$\, #4}
+
+\name{Enoch Ntsiful}
+\address{PhD Candidate in Economics \\  University of Barcelona (Spain)}
+\address{\href{mailto:enoch.ntsiful@ub.edu}{E-mail} \\ \href{https://ntsifulenoch.github.io}{Website} \\ \href{https://ieb.ub.edu/en/researcher/ntsiful-enoch/}{IEB profile} \\ \href{https://scholar.google.com/citations?user=LemFgSsAAAAJ}{Google Scholar} \\ \href{https://orcid.org/0000-0002-4432-3229}{ORCiD} \\ \href{https://www.linkedin.com/in/enoch-ntsiful-886988251/}{LinkedIn} \\ \href{https://bsky.app/profile/ntsiful-enoch.bsky.social}{Bluesky} }
+
+
+\begin{document}
+
+
+%-----------------------------
+\begin{rSection}{Research Interests}
+\textbf{Primary:} Development economics; Environmental economics; Energy economics\\
+\textbf{Secondary:} Health economics; International trade; Labour economics; Gender economics; Application of Machine Learning tools in economic analyses
+\end{rSection}
+
+
+%-----------------------------
+\begin{rSection}{Education}
+\textbf{PhD in Economics}, University of Barcelona, Spain \when{2023 -- June 2027 (expected)}\\
+{\small Thesis: Economics of sustainable cooling/heating solutions\\
+Supervisors: François Cohen \& Jordi J. Teixidó Figueras}
+
+\textbf{MSc Quantitative Economics (QED)}, University of Alicante, Spain \when{2022 -- 2024}\\
+{\small Specialisation: Labour Economics, Experimental Economics}
+
+\textbf{MPhil in Economics}, Kwame Nkrumah University of Science and Technology (KNUST) \when{2021 -- 2022}\\
+{\small Joint CMAP Economics, African Economic Research Consortium (AERC). \\ Specialisation: Econometrics, Environmental Economics}
+
+\textbf{BA Economics}, KNUST, Kumasi, Ghana \when{2015 -- 2019}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{6\baselineskip}
+\begin{rSection}{Job Market Paper}
+\textbf{\href{https://ntsifulenoch.github.io/files/Ntsiful_JMP.pdf}{Refrigeration, Food Security, and Nutrition: Evidence from Ghana}} (with \href{https://sites.google.com/site/francoiscoheneconomist/home}{François Cohen})
+
+{\small Food insecurity in low-income countries is typically analysed through agricultural production and purchasing power, with little attention paid to downstream food distribution. We study the welfare consequences of disruptions in final-stage food storage. Our identification exploits appliance breakdowns in Ghana, comparing households with functioning and broken refrigerators purchased at the same time and at similar prices. Breakdowns increase perceived food insecurity by one-third and reduce consumption of animal-sourced foods, lowering intake of vitamin B12. These findings highlight household refrigeration as an underappreciated lever to improve diets and reduce widespread micronutrient deficiencies as electrification rapidly expands.}
+
+{\small \textit{Awards: IREA Best Working Paper Award (Jan 2026); Best Paper Award, UB PhD in Economics Workshop (Dec 2025).\\ Earlier version: IREA Working Paper IR25/23, \href{https://hdl.handle.net/2445/225792}{``Refrigeration, Diets and Human Health: Evidence from Ghana''}.}}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{6\baselineskip}
+\begin{rSection}{Working Papers}
+\begin{itemize}
+\item Large-Scale Evidence on the Benefits from Off-Grid Technologies (with \href{https://sites.google.com/site/francoiscoheneconomist/home}{François Cohen} \& \href{https://www.ub.edu/gim/members/jordi-teixido/}{Jordi J. Teixidó})
+\item Bridging the divide: Housing infrastructure and energy poverty (with Bright Tetteh)
+\item Power Outages, Sales, and Employment in Informal Sector Firms: Evidence from 12 Developing Countries (with Bright Tetteh)
+\item Robust Determinants of Multidimensional Energy Poverty (with Pamela Efua Ofori \& Isaac K. Ofori)
+\end{itemize}
+\end{rSection}
+
+
+%-----------------------------
+% Journal quartiles as confirmed by Enoch (Oct 2026). JHASS has no SJR quartile, so none is shown.
+\needspace{4\baselineskip}
+\begin{rSection}{Peer-Reviewed Publications}
+\raggedright
+\begin{itemize}
+\pub{Effect of electricity access on the value of women’s labour and time in Ghana}{\textit{World Development Perspectives} (Q1)}{10.1016/j.wdp.2024.100614}{\textbf{Ntsiful,~E.} et~al. (2024)}
+\pub{Trade Policy Uncertainty, Trade, and Economic Growth in Africa: What Can the African Continental Free Trade Area (AfCFTA) Offer?}{\textit{The International Trade Journal} (Q3)}{10.1080/08853908.2025.2538861}{Dramani,~J.~B. et~al. (2025)}
+\pub{The welfare of Ghanaian women in trade: the role of English and French language literacy}{\textit{Journal of Humanities and Applied Social Sciences}}{10.1108/JHASS-08-2023-0091}{Yegblemenawo,~S.~A.~M. \& \textbf{Ntsiful,~E.} (2024)}
+\pub{A comparative analysis of the performances of macroeconomic indicators during the Global Financial Crisis, COVID-19 Pandemic, and the Russia-Ukraine War: The Ghanaian case}{\textit{Research in Globalization} (Q1)}{10.1016/j.resglo.2023.100174}{Tetteh,~B. \& \textbf{Ntsiful,~E.} (2023)}
+\pub{The effects of economic growth, trade liberalization, and financial development on environmental sustainability in West Africa. The role of institutions}{\textit{Research in Globalization} (Q1)}{10.1016/j.resglo.2022.100104}{Baajike,~F.~B. et~al. (2022)}
+\end{itemize}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{3\baselineskip}
+\begin{rSection}{Policy Writing}
+\textbf{Unlocking Climate Adaptation at COP31}\\
+Highlight, \textit{Les Cahiers de l'Environnement}, No. 4, Special Edition: COP and Climate Change (forthcoming) \quad$\cdot$\quad \textbf{Ntsiful, E.}, Cohen, F. \& Fahr, P. (2026)
+\end{rSection}
+
+
+%-----------------------------
+\needspace{5\baselineskip}
+\begin{rSection}{Work in Progress}
+\begin{itemize}
+\item Sibling Gender, Inheritance Customs Law, and Child Education: Evidence from Patrilineal and Matrilineal Societies in Ghana (with Hardi Ahmed \& Kwabena Nkansah)
+\item Examining the prospects of the African Continental Free Trade Area (AfCFTA) Agreement: Does trade with South Africa promote growth in the SADC region? (with Bright Tetteh \& Josephine Asare)
+\item Financial institution development and renewable electricity generation in EMICs and LICs (co-authored) % CONFIRM: coauthor names
+\item Electricity transmission and distributional losses, energy security, and economic growth in Ghana: The role of institutional quality (co-authored) % CONFIRM: coauthor names
+\end{itemize}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{6\baselineskip}
+\begin{rSection}{Awards, Grants \& Prizes}
+\begin{itemize}
+\item Best Working Paper Award, \href{https://www.ub.edu/irea/}{IREA}, University of Barcelona, for the JMP \when{Jan 2026}
+\item Best Paper Award, UB PhD in Economics Workshop 2025, for the JMP \when{Dec 2025}
+\item Formació d'Investigadors (FI) Grant, Catalan Government (UB, Spain) \when{May 2024 -- present}
+\item Workshop grant, III Workshop on Development Economics in Spain, CUNEF University \when{Oct 2025}
+\item Workshop grant, 9th International PhD Meeting in Economics, University of Macedonia \when{Jul 2025}
+\item Erasmus+ KA107 Grant (University of Alicante, Spain) \when{2022 -- 2024}
+\item 2nd Best Student, MPhil Economics, KNUST, Ghana \when{2021/22}
+\item Dean’s Excellence Award in Bachelor Studies, Faculty of Social Sciences, KNUST, Ghana \when{2018/19}
+% Left out of the three-page version (restore if wanted):
+% \item 2nd Best Student in Information and Communication Technology ($\approx$ 800 students), Methodist Senior High School, Saltpond, Ghana \when{2013/14}
+% \item 2nd Best Student in Geography ($\approx$ 170 students), Methodist Senior High School, Saltpond, Ghana \when{2013/14}
+\end{itemize}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{5\baselineskip}
+\begin{rSection}{Conferences, Seminars \& Workshops}
+\textbf{Upcoming}
+\begin{itemize}
+\item SAEe 2026, Simposio de la Asociación Española de Economía, Universidad de Las Palmas de Gran Canaria, Spain \when{Dec 2026}
+\item 2nd BCN Development Economics, UAB, Barcelona \when{Nov 2026}
+\end{itemize}
+
+\textbf{2026}
+\begin{itemize}
+\item 3rd Early Career Workshop on Applied Environmental \& Climate Change Economics (AECCE), Università di Urbino Carlo Bo, Italy \when{Oct 2026}
+\item Energy thematic day, Université Côte d'Azur, Nice, France \when{May 2026}
+\item Scientific Conference for the Creation of Sustainable Social Scenarios, Hub en Sostenibilitat Global, UB \when{May 2026}
+\item IEB PhD Students Seminar, UB \when{Apr 2026}
+\item 2026 UB$|$IREA Annual Conference, UB \when{Feb 2026}
+\item 1st BCN Development Economics Workshop, UB \when{Feb 2026}
+\end{itemize}
+
+\needspace{4\baselineskip}
+\textbf{2025 and earlier}
+\begin{itemize}
+\item III Workshop on Development Economics in Spain (SPANDE), CUNEF University, Madrid \when{Oct 2025}
+\item III PhD Conference in Social Sciences and Economics, Sapienza University of Rome \when{Sep 2025}
+\item 9th International PhD Meeting in Economics, University of Macedonia \when{Jul 2025}
+\item Centre for Social Policy Studies, University of Ghana \when{Jun 2025}
+\item BSE Jamboree 12th edition, Universitat Autònoma de Barcelona \when{May 2025}
+\item III PhD Research Horizons Seminar, Kozminski University \when{May 2025}
+\item International Conference on Empirical Economics (ICEE), PSU Altoona, USA \when{2023, 2024, 2025}
+\item EIEE (CMCC) Webinar-Seminar: earlier JMP version, presented by coauthor F.~Cohen \when{Nov 2025}
+\end{itemize}
+
+\textbf{Webinars:} see the \href{https://ntsifulenoch.github.io/conferences/}{personal website} for all webinars
+\end{rSection}
+
+
+%-----------------------------
+\needspace{6\baselineskip}
+\begin{rSection}{Teaching Experience}
+\textbf{Industrial Organisation} (\href{https://www.ub.edu/pladocent/?cod_giga=363669&curs=2024&idioma=ENG}{course page}), University of Barcelona \when{Autumn 2025/26 \& 2026/27}\\
+{\small Department of Econometrics, Statistics and Applied Economics}
+
+\textbf{Teaching Assistant}, Department of Economics, KNUST, Ghana \when{2019 -- 2020}\\
+{\small Advanced Macroeconomics; Development Economics; Elements of Economics}
+
+\textbf{Guest talk}: ``Practical steps toward a reproducible research'' \when{Sep 2026}\\
+{\small Informal talk for PhD students, Department of Economics, KNUST; based on the UBSE \href{https://hdl.handle.net/2445/223454}{BESTEPS guide}}
+
+\textbf{School teaching}: Mathematics, Integrated Science \& French \when{2014 -- 2015}\\
+{\small Global Doors International School \& Real Topgrade International School, Ghana}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{3\baselineskip}
+\begin{rSection}{Referee for Journals}
+World Development Perspectives; Energy Research \& Social Science
+\end{rSection}
+
+
+%-----------------------------
+%\needspace{6\baselineskip}
+%\begin{rSection}{Selected Additional Training}
+%\begin{itemize}
+%\item Statistics on International Trade in Services (\href{https://tft.unctad.org/latest-news/trainfortrade-e-learning-course-on-statistics-of-international-trade-in-services-2025/}{SITS 2025}), UNCTAD with UNSD \& WTO %\when{Sep -- Oct 2025}
+%\item International Merchandise Trade Statistics (\href{https://tft.unctad.org/event/e-learning-course-international-merchandise-trade-statistics-imts/}{IMTS 2025}), UNCTAD with UNSD \& WTO \when{Mar -- Apr 2025}
+%\item Cost and Affordability of a Healthy Diet (\href{https://www.worldbank.org/en/olc/course/62176}{COAHD 2024}), World Bank Open Learning Campus, Food Prices for Nutrition \when{Mar 2025 -- Aug 2024} % CONFIRM: the dates read in reverse order
+%\item EU Summer School in European Environmental Taxation and Policies 2.0, Law Department, University of Naples Federico II \when{Sep 2024}
+%\item Measuring Health System Efficiency: A Focus on Stochastic Frontier Analysis, KEMRI Wellcome Trust Research Programme, AfHESG \& HERU (remote) \when{Aug 2024}
+%\item Euro Area Business Cycle Network (EABCN) Training School, course by Jeffrey Wooldridge (Michigan State University) (remote) \when{May 2024} % CONFIRM: add the correct link
+%\end{itemize}
+%\end{rSection}
+
+
+%-----------------------------
+\needspace{4\baselineskip}
+\begin{rSection}{Non-Academic Work Experience}
+\textbf{Marketing manager}, Longrich International, Mankessim, Ghana \when{Jul -- Aug 2019}\\
+\textbf{Intern}, Because-of-you Centre, Mankessim, Ghana \when{May -- Aug 2016, 2017, 2018}
+% Details left out of the three-page version:
+% Marketing manager: led publicity and awareness creation of products and packages, causing an increase in sales and profit.
+% Intern: oversaw production and managed sales, achieving increased output, sales, and profits.
+\end{rSection}
+
+
+%-----------------------------
+\needspace{5\baselineskip}
+\begin{rSection}{Leadership \& Charity Roles}
+\begin{itemize}
+\item National Secretary, Youth/PENSA Ministry (2024 -- present) and District Secretary, Barcelona District (2025 -- present), The Church of Pentecost Int'l, Spain
+\item President, Economics Christian Fellowship and Associates (ECFA), KNUST \when{2018 -- 2019}
+\item Deputy Academic Board Chairman (2017 -- 2018) and Judicial Committee Member (2016 -- 2017), Economics Students Association, KNUST
+\end{itemize}
+\end{rSection}
+
+
+%-----------------------------
+\needspace{4\baselineskip}
+\begin{rSection}{Programming \& Languages}
+\textbf{Programming:} Stata, LaTeX, EViews, R, Matlab, Python (beginner)\\
+\textbf{Languages:} English (official \& proficient); Akan (native); French (basic); Spanish \& Catalan \mbox{(beginner)}
+% Left out of the three-page version (restore if wanted):
+% Soft skills: collaborative communication; consultative engagement; service-oriented leadership; adaptive problem-solving.
+% Other skills: I play several musical instruments (keyboard, guitar, drum sets, etc.).
+\end{rSection}
+
+
+%-----------------------------
+\needspace{7\baselineskip}
+\begin{rSection}{Referees}
+\begin{minipage}[t]{0.32\textwidth}\raggedright
+\href{https://sites.google.com/site/francoiscoheneconomist/home}{\textbf{François Cohen}}\\
+Associate Professor\\
+Department of Economics\\
+University of Barcelona, Spain\\
+\href{mailto:francois.cohen@ub.edu}{francois.cohen@ub.edu}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}\raggedright
+\href{https://www.ub.edu/gim/members/jordi-teixido/}{\textbf{Jordi J. Teixidó Figueras}}\\
+Associate Professor (Professor Agregat)\\
+Department of Economics\\
+University of Barcelona, Spain\\
+\href{mailto:j.teixido@ub.edu}{j.teixido@ub.edu}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}\raggedright
+\href{https://webapps.knust.edu.gh/staff/dirsearch/profile/summary/6d10a9a25ebf.html}{\textbf{John Bosco Dramani}}\\
+Associate Professor\\
+Department of Economics\\
+KNUST, Kumasi, Ghana\\
+\href{mailto:boscodramani@knust.edu.gh}{boscodramani@knust.edu.gh}\\
+\href{mailto:boscodramani@gmail.com}{boscodramani@gmail.com}
+\end{minipage}
+\end{rSection}
+
+
+\end{document}
