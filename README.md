@@ -43,7 +43,10 @@ How it is wired: this folder is the GitHub repository. `cv/` is a git subtree of
 ## Updating the PDFs
 
 - Job market paper: replace `files/Ntsiful_JMP.pdf` with the new version, keeping the same name so links never break.
+- Off-grid paper (Doctoral research): replace `files/Ntsiful_Offgrid.pdf` the same way.
 - CV: never edit the PDF by hand. It is built from `cv/resume_ntsiful.tex`: by `scripts\cv.ps1` on this computer, and automatically on GitHub when the site is built.
+
+Everything in `files/` becomes public once it reaches GitHub, even if no page links to it. Keep private drafts and slides elsewhere, for example in `docs/drafts/` on this computer, which is never published.
 
 ## Visitor and download counts (private)
 

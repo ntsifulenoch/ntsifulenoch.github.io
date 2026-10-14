@@ -409,6 +409,12 @@ html {
     color: var(--global-text-color-light);
     font-size: 0.95em;
   }
+
+  // Abstract shown in full (Doctoral research); working papers fold theirs away
+  .paper__abstract {
+    margin: 0.5em 0 0.4em;
+    font-size: 0.95em;
+  }
 }
 
 .status {
