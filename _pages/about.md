@@ -4,6 +4,13 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+# Mailing address: shown in the left panel, below the links, on this page only.
+# Edit the lines here. The UB e-mail is not repeated (it is the Email link above it).
+mailing_address:
+  - Department of Econometrics, Statistics and Applied Economics
+  - Faculty of Economics and Business, University of Barcelona
+  - John Maynard Keynes 1–11, 08034 Barcelona, Spain
+alt_email: ntsifulenoch0245@gmail.com
 ---
 
 Welcome to my page!
@@ -19,11 +26,3 @@ I enjoy playing musical instruments.
 **Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics  
   
 **Languages:** English (fluent), French (basic), Spanish & Catalan (beginner). 
-
-<div class="mailing-address" markdown="1">
-**Mailing Address**  
-Department of Econometrics, Statistics and Applied Economics  
-Faculty of Economics and Business, University of Barcelona  
-John Maynard Keynes 1–11, 08034 Barcelona, Spain  
-Alt. e-mail: [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)
-</div>

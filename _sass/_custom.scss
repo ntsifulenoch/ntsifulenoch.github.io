@@ -215,6 +215,42 @@ html {
   color: var(--global-link-color);
 }
 
+// Mailing address after the sidebar links (home page only), in small type,
+// set off from the icons by a thin line with clear space around it
+.author__urls .author__address {
+  margin-top: 2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--global-border-color);
+  white-space: normal; // the theme keeps link items on one line
+  column-span: all;    // below both columns of links on the home page
+
+  p {
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.68rem;
+    line-height: 1.6;
+  }
+
+  .author__address-title {
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+
+  a {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: var(--global-link-color);
+  }
+
+  // Phones: inside the "Contact & links" menu, wide enough for the address lines
+  @media screen and (max-width: 924px) {
+    min-width: 17em;
+    margin-top: 1rem;
+  }
+}
+
 /* Buttons and abstract toggles
    ========================================================================== */
 
@@ -426,25 +462,6 @@ html {
       grid-template-columns: 1fr;
       gap: 0;
     }
-  }
-}
-
-// Mailing address at the end of the home page text, in small type
-.page__content .mailing-address {
-  margin-top: 2em;
-  padding-top: 0.8em;
-  border-top: 1px solid var(--global-border-color);
-
-  p {
-    margin: 0;
-    color: var(--global-text-color-light);
-    font-size: 0.68rem;
-    line-height: 1.6;
-  }
-
-  strong {
-    color: var(--global-text-color);
-    font-weight: 600;
   }
 }
 
