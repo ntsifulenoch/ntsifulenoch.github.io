@@ -25,4 +25,4 @@ I enjoy playing musical instruments.
 **Primary fields:** development economics, environmental economics, energy economics  
 **Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics  
   
-**Languages:** English (fluent), French (basic), Spanish & Catalan (beginner). 
+**Languages:** English (fluent), French (basic), Spanish & Catalan (beginner), Akan (native). 
