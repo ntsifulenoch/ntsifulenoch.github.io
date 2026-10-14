@@ -6,7 +6,7 @@ Personal academic website of Enoch Ntsiful, PhD candidate in Economics at the Un
 
 | To change | Edit |
 |---|---|
-| Home page: welcome, bio, education, fields, contact | `_pages/about.md` |
+| Home page: welcome, bio, education, fields; its mailing address (shown in the left panel, home page only) is at the top of the file | `_pages/about.md` |
 | What's new (dated news list) | `_pages/news.md` |
 | Papers: job market paper card (top), working papers, publications, work in progress | `_pages/research.md` |
 | Policy brief, videos, interviews, competitions | `_pages/media.md` |
