@@ -24,11 +24,11 @@ description: "Job market paper, working papers, publications and work in progres
 
 ## Working papers
 
-{% comment %} Coauthor names are plain text except François Cohen, Jordi J. Teixidó and Patrick Fahr (the user's choice). {% endcomment %}
+{% comment %} Working papers: coauthor names are plain text, never links (Enoch, Oct 2026). {% endcomment %}
 
 <div class="paper">
   <p class="paper__title">Large-Scale Evidence on the Benefits from Off-Grid Technologies</p>
-  <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.ub.edu/gim/members/jordi-teixido/">Jordi J. Teixidó</a></p>
+  <p class="paper__meta">with François Cohen and Jordi J. Teixidó</p>
   <div class="links">
     <details>
       <summary>Abstract</summary>

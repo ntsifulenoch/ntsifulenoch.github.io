@@ -9,9 +9,9 @@ description: "Teaching experience of Enoch Ntsiful."
 <div class="paper">
   <p class="paper__title">Industrial Organisation <span class="status">Current</span></p>
   <p class="paper__meta">Department of Econometrics, Statistics and Applied Economics · Autumn 2025/26 and Autumn 2026/27</p>
-  <div class="links"><a class="btn-pill" href="https://www.ub.edu/pladocent/?cod_giga=363669&amp;curs=2024&amp;idioma=ENG">Course page</a></div>
 </div>
-{% comment %} CONFIRM: the course-page link points to the 2024 catalogue (curs=2024); update it if a newer page exists. {% endcomment %}
+{% comment %} The old course-page link (2024 catalogue) was removed at Enoch's request (Oct 2026).
+   Add the new one here, and in the CV, when he sends it. {% endcomment %}
 
 ## Kwame Nkrumah University of Science and Technology (KNUST), Ghana
 

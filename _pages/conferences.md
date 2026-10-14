@@ -8,7 +8,9 @@ description: "Conference, seminar and workshop presentations by Enoch Ntsiful."
 
 <ul class="dated">
   <li><span class="dated__when">Dec 2026</span><span>SAEe 2026, Simposio de la Asociación Española de Economía, Universidad de Las Palmas de Gran Canaria, Spain<span class="dated__paper">Paper: <em>Large-Scale Evidence on the Benefits from Off-Grid Technologies</em></span></span></li>
+  {% comment %} On hold until the organisers reply; Enoch may not attend (Oct 2026). Also commented out on What's new and in the CV.
   <li><span class="dated__when">6 Nov 2026</span><span>2nd BCN Development Economics, Universitat Autònoma de Barcelona<span class="dated__paper">Paper: <em>Large-Scale Evidence on the Benefits from Off-Grid Technologies</em></span></span></li>
+  {% endcomment %}
 </ul>
 
 ## 2026
@@ -25,6 +27,7 @@ description: "Conference, seminar and workshop presentations by Enoch Ntsiful."
 ## 2025 and earlier
 
 <ul class="dated">
+  <li><span class="dated__when">Dec 2025</span><span>UB PhD in Economics Workshop 2025, University of Barcelona<span class="dated__paper">Paper: <em>Refrigeration, Food Security, and Nutrition: Evidence from Ghana</em> (job market paper; Best Paper Award)</span></span></li>
   <li><span class="dated__when">Nov 2025</span><span>EIEE (CMCC) Webinar-Seminar<span class="dated__paper">Paper: <em>Refrigeration, Diets and Human Health: Evidence from Ghana</em>, an earlier version of my job market paper, presented by coauthor François Cohen</span></span></li>
   <li><span class="dated__when">Oct 2025</span><span>III Workshop on Development Economics in Spain (SPANDE), CUNEF University, Madrid</span></li>
   <li><span class="dated__when">Sep 2025</span><span>III PhD Conference in Social Sciences and Economics, Sapienza University of Rome</span></li>

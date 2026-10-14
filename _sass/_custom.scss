@@ -429,6 +429,12 @@ html {
   }
 }
 
+// Contact details at the end of the home page, a little smaller than the body text
+.contact-info p {
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
 .key-messages li {
   margin-bottom: 0.35em;
 }
