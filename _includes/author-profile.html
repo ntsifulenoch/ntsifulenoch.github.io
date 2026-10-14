@@ -180,15 +180,6 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}
-
-      {% comment %} Mailing address, after the links: only on pages that set `mailing_address`
-         in their front matter (the home page). On phones it shows in the "Contact & links" menu. {% endcomment %}
-      {% if page.mailing_address %}
-        <li class="author__address">
-          <p class="author__address-title">Mailing Address</p>
-          <p>{% for line in page.mailing_address %}{{ line | escape }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}{% if page.alt_email %}<br>Alt. e-mail: <a href="mailto:{{ page.alt_email }}">{{ page.alt_email }}</a>{% endif %}</p>
-        </li>
-      {% endif %}
     </ul>
   </div>
 </div>
