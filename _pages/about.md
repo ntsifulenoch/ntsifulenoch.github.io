@@ -13,13 +13,15 @@ Welcome to my page!
 I am a PhD candidate in Economics at the [University of Barcelona](https://www.ub.edu/) (expected completion: June 2027) and a member of the [IEB](https://ieb.ub.edu/en/researcher/ntsiful-enoch/) and [GiM](https://www.ub.edu/gim/) research groups. My doctoral research focuses on analysing sustainable technologies as solutions for vulnerable communities, with particular attention to energy access, climate adaptation and welfare outcomes.
 
 I earned my BA and MPhil in Economics from [KNUST](https://www.knust.edu.gh/) (Ghana) as well as an MSc in Quantitative Economics (QED) from the [University of Alicante](https://www.ua.es/en/) (Spain). 
-Outside academia, I enjoy music and playing musical instruments. 
+I enjoy playing musical instruments. 
 
 **Primary fields:** development economics, environmental economics, energy economics  
 **Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics  
+  
 **Languages:** English (fluent), French (basic), Spanish & Catalan (beginner). 
 
-## Contact
+
+### Contact
 
 <div class="contact-info" markdown="1">
 E-mails: [enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu) || [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)   
