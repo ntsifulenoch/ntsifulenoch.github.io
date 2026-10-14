@@ -4,6 +4,13 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+# Mailing address: shown in the left panel, under the links, on this page only.
+# Edit the lines here. The main e-mail is not repeated (it is the Email link above it).
+mailing_address:
+  - Department of Econometrics, Statistics and Applied Economics
+  - Faculty of Economics and Business, University of Barcelona
+  - John Maynard Keynes 1–11, 08034 Barcelona, Spain
+alt_email: ntsifulenoch0245@gmail.com
 ---
 
 Welcome to my page!
@@ -18,12 +25,3 @@ Outside academia, I enjoy music and playing musical instruments.
 **Primary fields:** development economics, environmental economics, energy economics  
 **Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics  
 **Languages:** English (fluent), French (basic), Spanish & Catalan (beginner). 
-
-## Contact
-
-<div class="contact-info" markdown="1">
-E-mails: [enoch.ntsiful@ub.edu](mailto:enoch.ntsiful@ub.edu) || [ntsifulenoch0245@gmail.com](mailto:ntsifulenoch0245@gmail.com)   
-Department of Econometrics, Statistics and Applied Economics  
-Faculty of Economics and Business, University of Barcelona  
-John Maynard Keynes 1–11, 08034 Barcelona, Spain
-</div>

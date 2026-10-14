@@ -215,6 +215,42 @@ html {
   color: var(--global-link-color);
 }
 
+// Mailing address at the end of the sidebar links (home page only), in small type
+.author__urls .author__address {
+  margin-top: 0.8em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+  font-size: 0.68rem;
+  line-height: 1.5;
+  white-space: normal; // the theme keeps link items on one line
+  column-span: all;    // below both columns of links on the home page
+
+  p {
+    margin: 0;
+    font-size: inherit;
+  }
+
+  .author__address-title {
+    margin-bottom: 0.2em;
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+
+  a {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: var(--global-link-color);
+  }
+
+  // Phones: inside the "Contact & links" menu, wide enough for the address lines
+  @media screen and (max-width: 924px) {
+    min-width: 17em;
+  }
+}
+
 /* Buttons and abstract toggles
    ========================================================================== */
 
@@ -427,12 +463,6 @@ html {
       gap: 0;
     }
   }
-}
-
-// Contact details at the end of the home page, a little smaller than the body text
-.contact-info p {
-  font-size: 0.88em;
-  line-height: 1.6;
 }
 
 .key-messages li {
