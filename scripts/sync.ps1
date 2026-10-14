@@ -46,13 +46,19 @@ $hasGitHub = (git remote) -contains "origin"
 if ($hasGitHub) {
   Write-Host "==> Bringing down edits made on GitHub"
   git pull --no-rebase --no-edit origin master
-  if ($LASTEXITCODE -ne 0) { Stop-Sync "edits on GitHub overlap with edits here. Resolve the files git lists, then run this again." }
+  if ($LASTEXITCODE -ne 0) {
+    if (Test-Path (Join-Path $root ".git\MERGE_HEAD")) { Stop-Sync "edits on GitHub overlap with edits here. Resolve the files git lists, then run this again." }
+    Stop-Sync "could not reach GitHub. Check the internet connection, then run this again."
+  }
 }
 
 # 3. Overleaf -> this computer (cv/)
 Write-Host "==> Bringing down CV edits made on Overleaf"
 git subtree pull --prefix=cv overleaf main -m "Merge CV edits from Overleaf"
-if ($LASTEXITCODE -ne 0) { Stop-Sync "CV edits on Overleaf overlap with edits here. Resolve the files git lists, then run this again." }
+if ($LASTEXITCODE -ne 0) {
+  if (Test-Path (Join-Path $root ".git\MERGE_HEAD")) { Stop-Sync "CV edits on Overleaf overlap with edits here. Resolve the files git lists, then run this again." }
+  Stop-Sync "could not reach Overleaf. Check the internet connection, then run this again."
+}
 
 # 4. Rebuild the CV PDF and save it if it changed
 & (Join-Path $PSScriptRoot "cv.ps1")
