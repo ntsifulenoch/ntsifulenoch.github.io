@@ -143,5 +143,5 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
 - When the Rain Fails: The 2015/16 El Niño Drought and Intimate-Partner Violence in South Africa (with Bright Tetteh)
 {% endcomment %}
 
-- Does Durable Appliance Ownership Alleviate Intrahousehold Time Poverty and Improve Child Literacy?  
+- Does Durable Appliance Ownership Improve Intrahousehold Time Poverty and Child Literacy?  
   <span class="small-note">Master's thesis. </span>
