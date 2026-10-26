@@ -7,9 +7,9 @@ Personal academic website of Enoch Ntsiful, PhD candidate in Economics at the Un
 | To change | Edit |
 |---|---|
 | Home page: welcome, bio, education, fields; its mailing address (left panel, home page only) is at the top of the file | `_pages/about.md` |
-| What's new (dated news list) | `_pages/news.md` |
-| Papers: job market paper card (top), working papers, publications, work in progress | `_pages/research.md` |
-| Policy brief, videos, interviews, competitions | `_pages/media.md` |
+| What's new: upcoming items, then the 5 latest activities (older ones are kept in a comment at the end of the list) | `_pages/news.md` |
+| Papers: job market paper card (top), doctoral research, pre-doctoral publications, working papers, work in progress | `_pages/research.md` |
+| Policy brief, op-eds ahead of the brief, talks, interviews, competitions | `_pages/media.md` |
 | Presentations and webinars | `_pages/conferences.md` |
 | Teaching and guest talks | `_pages/teaching.md` |
 | Mini-courses | `_pages/mini-courses.md` |
@@ -21,6 +21,16 @@ Personal academic website of Enoch Ntsiful, PhD candidate in Economics at the Un
 | Photo | `images/profile.jpg` |
 
 Keep the website and the CV consistent: every paper, coauthor, year and talk should match.
+
+### Hiding something without deleting it
+
+Wrap it in a comment, so you can bring it back later. In a page:
+
+```liquid
+{% comment %} text or HTML to hide {% endcomment %}
+```
+
+The closing tag must be `{% endcomment %}`. A second `{% comment %}` instead stops the whole site from building. In the CV, start each line with `%`.
 
 ## Editing: GitHub, this computer or Overleaf
 
@@ -44,6 +54,7 @@ How it is wired: this folder is the GitHub repository. `cv/` is a git subtree of
 
 - Job market paper: replace `files/Ntsiful_JMP.pdf` with the new version, keeping the same name so links never break.
 - Off-grid paper (Doctoral research): replace `files/Ntsiful_Offgrid.pdf` the same way.
+- On github.com: open the `files` folder, choose *Add file → Upload files*, and upload the PDF under exactly the same name. If the abstract changed, update it in `_pages/research.md` too.
 - CV: never edit the PDF by hand. It is built from `cv/resume_ntsiful.tex`: by `scripts\cv.ps1` on this computer, and automatically on GitHub when the site is built.
 
 Everything in `files/` becomes public once it reaches GitHub, even if no page links to it. Keep private drafts and slides elsewhere, for example in `docs/drafts/` on this computer, which is never published.
