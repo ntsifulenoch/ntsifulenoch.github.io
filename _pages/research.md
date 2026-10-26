@@ -1,7 +1,7 @@
 ---
 permalink: /research/
 title: "Research"
-description: "Job market paper, doctoral research, working papers, publications and work in progress by Enoch Ntsiful."
+description: "Job market paper, doctoral research, publications, working papers and work in progress by Enoch Ntsiful."
 ---
 
 {% comment %} The job market paper card. The sidebar's "Job Market Paper" link points here
@@ -24,7 +24,8 @@ description: "Job market paper, doctoral research, working papers, publications 
 
 ## Doctoral research
 
-{% comment %} The other papers of Enoch's PhD thesis; the JMP is the card above. Abstracts are shown in full.
+{% comment %} The other papers of Enoch's PhD thesis; the JMP is the card above. Abstracts fold away in an
+   "Abstract" toggle, like the working papers (Enoch, 26 Oct 2026; they were shown in full before).
    Off-grid: links the latest draft, files/Ntsiful_Offgrid.pdf (for a new draft, replace that file, keeping the name).
    E-waste: ongoing, no link (the June 2026 slides stay private in docs/drafts/). Coauthors are not linked. {% endcomment %}
 
@@ -33,14 +34,59 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
 <div class="paper">
   <p class="paper__title">Large-Scale Evidence on the Benefits from Off-Grid Technologies</p>
   <p class="paper__meta">with François Cohen and Jordi J. Teixidó</p>
-  <p class="paper__abstract">Evidence on who benefits from off-grid energy, and how, rests largely on single-product studies. We pool 474 standardised customer surveys covering almost 79,000 users of six off-grid technologies and seven appliance types, sold by 164 companies in 31 countries between 2020 and 2023. Nine in ten customers report a better quality of life, with little difference across technologies. Each product works through one dominant channel, usually not lower spending. Gains are largest for first-time users and households without a prior grid connection, although adopters are better educated than the populations they come from. Adoption risk depends more on companies than customers: resolving problems and checking that credit buyers understand their contracts are associated with less dissatisfaction.</p>
-  <p class="paper__meta"><em>JEL:</em> O13, O33, Q42, I31 · <em>Keywords:</em> off-grid energy, energy access, quality of life, adoption risk</p>
-  <div class="links"><a class="btn-pill btn-pill--solid" href="/files/Ntsiful_Offgrid.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Latest version (PDF)</a></div>
+  <div class="links">
+    <a class="btn-pill btn-pill--solid" href="/files/Ntsiful_Offgrid.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Latest version (PDF)</a>
+    <details>
+      <summary>Abstract</summary>
+      <p>Evidence on who benefits from off-grid energy, and how, rests largely on single-product studies. We pool 474 standardised customer surveys covering almost 79,000 users of six off-grid technologies and seven appliance types, sold by 164 companies in 31 countries between 2020 and 2023. Nine in ten customers report a better quality of life, with little difference across technologies. Each product works through one dominant channel, usually not lower spending. Gains are largest for first-time users and households without a prior grid connection, although adopters are better educated than the populations they come from. Adoption risk depends more on companies than customers: resolving problems and checking that credit buyers understand their contracts are associated with less dissatisfaction.</p>
+      <p><em>JEL:</em> O13, O33, Q42, I31 · <em>Keywords:</em> off-grid energy, energy access, quality of life, adoption risk</p>
+    </details>
+  </div>
 </div>
 
 <div class="paper">
   <p class="paper__title">E-Waste Burning and Health <span class="status">Ongoing</span></p>
-  <p class="paper__abstract">Informal e-waste sites burn discarded electronics in the open to recover metals, releasing fine particulates, dioxins and heavy metals over dense urban neighbourhoods. This project studies Agbogbloshie in Accra, for two decades one of the world's largest such sites, and its demolition by the government in July 2021. Combining satellite fire and aerosol data, hourly wind and geocoded Demographic and Health Surveys, it compares children living downwind and upwind of the site at the same distance. Preliminary results suggest that smoke exposure raised child anaemia, that burning near the site did not fall robustly after the clearance, and that child health has not yet measurably improved.</p>
+  <div class="links">
+    <details>
+      <summary>Abstract</summary>
+      <p>Informal e-waste sites burn discarded electronics in the open to recover metals, releasing fine particulates, dioxins and heavy metals over dense urban neighbourhoods. This project studies Agbogbloshie in Accra, for two decades one of the world's largest such sites, and its demolition by the government in July 2021. Combining satellite fire and aerosol data, hourly wind and geocoded Demographic and Health Surveys, it compares children living downwind and upwind of the site at the same distance. Preliminary results suggest that smoke exposure raised child anaemia, that burning near the site did not fall robustly after the clearance, and that child health has not yet measurably improved.</p>
+    </details>
+  </div>
+</div>
+
+
+{% comment %} Order (Enoch, 26 Oct 2026): pre-doctoral publications come before the working papers.
+   The heading was "Peer-reviewed publications" until then. {% endcomment %}
+## Pre-doctoral publications
+
+<div class="paper">
+  <p class="paper__title">Effect of electricity access on the value of women's labour and time in Ghana</p>
+  <p class="paper__meta"><strong>Ntsiful, E.</strong>, Dramani, J. B., Adusah-Poku, F., &amp; Frimpong, P. B. (2024). <em>World Development Perspectives</em> (Q1)</p>
+  <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.wdp.2024.100614">DOI</a></div>
+</div>
+
+<div class="paper">
+  <p class="paper__title">Trade Policy Uncertainty, Trade, and Economic Growth in Africa: What Can the African Continental Free Trade Area (AfCFTA) Offer?</p>
+  <p class="paper__meta">Dramani, J. B., Duodu, E., Tetteh, B., <strong>Ntsiful, E.</strong>, &amp; Frimpong, P. B. (2025). <em>The International Trade Journal</em> (Q3)</p>
+  <div class="links"><a class="btn-pill" href="https://doi.org/10.1080/08853908.2025.2538861">DOI</a></div>
+</div>
+
+<div class="paper">
+  <p class="paper__title">The effects of economic growth, trade liberalization, and financial development on environmental sustainability in West Africa. The role of institutions</p>
+  <p class="paper__meta">Baajike, F. B., <strong>Ntsiful, E.</strong>, Afriyie, A. B., &amp; Oteng-Abayie, E. F. (2022). <em>Research in Globalization</em> (Q1)</p>
+  <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.resglo.2022.100104">DOI</a></div>
+</div>
+
+<div class="paper">
+  <p class="paper__title">A comparative analysis of the performances of macroeconomic indicators during the Global Financial Crisis, COVID-19 Pandemic, and the Russia-Ukraine War: The Ghanaian case</p>
+  <p class="paper__meta">Tetteh, B., &amp; <strong>Ntsiful, E.</strong> (2023). <em>Research in Globalization</em> (Q1)</p>
+  <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.resglo.2023.100174">DOI</a></div>
+</div>
+
+<div class="paper">
+  <p class="paper__title">The welfare of Ghanaian women in trade: the role of English and French language literacy</p>
+  <p class="paper__meta">Yegblemenawo, S. A. M., &amp; <strong>Ntsiful, E.</strong> (2024). <em>Journal of Humanities and Applied Social Sciences</em>, 6(1), 38–54.</p>
+  <div class="links"><a class="btn-pill" href="https://doi.org/10.1108/JHASS-08-2023-0091">DOI</a></div>
 </div>
 
 
@@ -82,42 +128,10 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
 </div>
 
 
-## Peer-reviewed publications
-
-<div class="paper">
-  <p class="paper__title">Effect of electricity access on the value of women's labour and time in Ghana</p>
-  <p class="paper__meta"><strong>Ntsiful, E.</strong>, Dramani, J. B., Adusah-Poku, F., &amp; Frimpong, P. B. (2024). <em>World Development Perspectives</em> (Q1)</p>
-  <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.wdp.2024.100614">DOI</a></div>
-</div>
-
-<div class="paper">
-  <p class="paper__title">Trade Policy Uncertainty, Trade, and Economic Growth in Africa: What Can the African Continental Free Trade Area (AfCFTA) Offer?</p>
-  <p class="paper__meta">Dramani, J. B., Duodu, E., Tetteh, B., <strong>Ntsiful, E.</strong>, &amp; Frimpong, P. B. (2025). <em>The International Trade Journal</em> (Q3)</p>
-  <div class="links"><a class="btn-pill" href="https://doi.org/10.1080/08853908.2025.2538861">DOI</a></div>
-</div>
-
-<div class="paper">
-  <p class="paper__title">The effects of economic growth, trade liberalization, and financial development on environmental sustainability in West Africa. The role of institutions</p>
-  <p class="paper__meta">Baajike, F. B., <strong>Ntsiful, E.</strong>, Afriyie, A. B., &amp; Oteng-Abayie, E. F. (2022). <em>Research in Globalization</em> (Q1)</p>
-  <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.resglo.2022.100104">DOI</a></div>
-</div>
-
-<div class="paper">
-  <p class="paper__title">A comparative analysis of the performances of macroeconomic indicators during the Global Financial Crisis, COVID-19 Pandemic, and the Russia-Ukraine War: The Ghanaian case</p>
-  <p class="paper__meta">Tetteh, B., &amp; <strong>Ntsiful, E.</strong> (2023). <em>Research in Globalization</em> (Q1)</p>
-  <div class="links"><a class="btn-pill" href="https://doi.org/10.1016/j.resglo.2023.100174">DOI</a></div>
-</div>
-
-<div class="paper">
-  <p class="paper__title">The welfare of Ghanaian women in trade: the role of English and French language literacy</p>
-  <p class="paper__meta">Yegblemenawo, S. A. M., &amp; <strong>Ntsiful, E.</strong> (2024). <em>Journal of Humanities and Applied Social Sciences</em>, 6(1), 38–54.</p>
-  <div class="links"><a class="btn-pill" href="https://doi.org/10.1108/JHASS-08-2023-0091">DOI</a></div>
-</div>
-
-
 ## Work in progress
 
-- Does Durable Appliance Ownership Alleviate Intrahousehold Time Poverty and Improve Child Literacy?
+{% comment %} Enoch, 26 Oct 2026: only the durable-appliance paper is shown. The others are kept here; move a line
+   above this note to show it again.
 - Dwelling Type, Shared Amenities, and Neighbourhood Conflict
 - ICT Goods Trade, Environmental Degradation, Dematerialization and Efficiency Gains
 - ICT Goods Trade and Income Inequality Dynamics: A Global Evidence
@@ -127,3 +141,7 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
 - Electricity transmission and distributional losses, energy security, and economic growth in Ghana: The role of institutional quality (with Franklin Bedakiyiba Baajike and Asaki Foster)
 - Frontier Technology Readiness, Emissions, and Growth: A Global Decoupling and Decomposition Analysis (with Franklin Bedakiyiba Baajike)
 - When the Rain Fails: The 2015/16 El Niño Drought and Intimate-Partner Violence in South Africa (with Bright Tetteh)
+{% endcomment %}
+
+- Does Durable Appliance Ownership Alleviate Intrahousehold Time Poverty and Improve Child Literacy?  
+  <span class="small-note">Master's thesis, MSc Quantitative Economics, University of Alicante</span>

@@ -324,10 +324,17 @@ html {
     color: var(--global-bg-color);
   }
 
-  p {
+  p,
+  ol {
     margin: 0.6em 0 0.2em;
     font-size: 0.95em;
   }
+}
+
+// Small print under a list or an item, e.g. a paywall note
+.small-note {
+  color: var(--global-text-color-light);
+  font-size: 0.85em;
 }
 
 /* Job market paper card (top of the Research page): set apart from everything
@@ -410,7 +417,7 @@ html {
     font-size: 0.95em;
   }
 
-  // Abstract shown in full (Doctoral research); working papers fold theirs away
+  // Abstract shown in full (not used since 26 Oct 2026: every abstract now folds away)
   .paper__abstract {
     margin: 0.5em 0 0.4em;
     font-size: 0.95em;
