@@ -144,4 +144,4 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
 {% endcomment %}
 
 - Does Durable Appliance Ownership Alleviate Intrahousehold Time Poverty and Improve Child Literacy?  
-  <span class="small-note">Master's thesis, MSc Quantitative Economics, University of Alicante</span>
+  <span class="small-note">Master's thesis. {% comment %} MSc Quantitative Economics, University of Alicante {% comment %}</span>
