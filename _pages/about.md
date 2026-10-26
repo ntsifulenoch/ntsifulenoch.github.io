@@ -22,7 +22,9 @@ I am a PhD candidate in Economics at the [University of Barcelona](https://www.u
 I earned my BA and MPhil in Economics from [KNUST](https://www.knust.edu.gh/) (Ghana) as well as an MSc in Quantitative Economics (QED) from the [University of Alicante](https://www.ua.es/en/) (Spain). 
 I enjoy playing musical instruments. 
 
+{% comment %} Labour economics and gender economics were removed from the secondary fields at Enoch's request (26 Oct 2026). To restore, use this line instead:
+**Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics {% endcomment %}
 **Primary fields:** development economics, environmental economics, energy economics  
-**Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics  
+**Secondary fields:** health economics, international trade, & applications of machine learning in economics  
   
 **Languages:** English (official & proficient), Akan (native), French (basic), Spanish & Catalan (beginner). 

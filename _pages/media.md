@@ -9,14 +9,35 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
 <div class="paper" id="cop31">
   <p class="paper__title">Unlocking Climate Adaptation at COP31 <span class="status">Forthcoming</span></p>
   <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a> · Highlight, <em>Les Cahiers de l'Environnement</em>, No. 4, Special Edition: COP and Climate Change</p>
-  <p>The brief makes three recommendations for COP31:</p>
-  <ol class="key-messages">
-    <li><strong>Treat adaptation as an investment.</strong> The commitment to triple adaptation finance is an opportunity to scale up investments with positive economic and social returns.</li>
-    <li><strong>Close the adaptation gap in health.</strong> While the benefits of health adaptation are well established, financing remains exceptionally low.</li>
-    <li><strong>Define objectives for adaptation, not technologies.</strong> Focusing on objectives and expected outcomes broadens the range of effective investments and facilitates public-private cooperation.</li>
-  </ol>
+  {% comment %} The recommendations fold away (Enoch, 26 Oct 2026). {% endcomment %}
+  <div class="links">
+    <details>
+      <summary>Recommendations</summary>
+      <p>The brief makes three recommendations for COP31:</p>
+      <ol class="key-messages">
+        <li><strong>Treat adaptation as an investment.</strong> The commitment to triple adaptation finance is an opportunity to scale up investments with positive economic and social returns.</li>
+        <li><strong>Close the adaptation gap in health.</strong> While the benefits of health adaptation are well established, financing remains exceptionally low.</li>
+        <li><strong>Define objectives for adaptation, not technologies.</strong> Focusing on objectives and expected outcomes broadens the range of effective investments and facilitates public-private cooperation.</li>
+      </ol>
+    </details>
+  </div>
 </div>
 {% comment %} Add the PDF or the publisher's link once the issue is out (end of October 2026). {% endcomment %}
+
+
+## In the news ahead of the COP31 brief
+
+{% comment %} Op-eds that carry the brief's message before it is published (Enoch, 26 Oct 2026). Enoch will send
+   two more: one in El País and one in a UK outlet. Add each as another .paper block, newest first.
+   Coauthors are plain text here. {% endcomment %}
+
+With my coauthors, I am writing a series of op-eds that brings the brief's message to a wider audience ahead of its publication.
+
+<div class="paper" id="ara">
+  <p class="paper__title"><a href="https://empreses.ara.cat/opinio/l-adaptacio-canvi-climatic-prioritat-cop_129_5879985.html">L'adaptació al canvi climàtic, una prioritat per a la COP</a></p>
+  <p class="paper__meta">with François Cohen and Patrick Fahr · Opinion, <em>Ara</em> · 17 October 2026</p>
+  <p class="small-note">In Catalan, with Spanish and English versions on the same page; subscribers only.</p>
+</div>
 
 
 ## Talks on video
@@ -24,9 +45,11 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
 <div class="paper" id="video">
   <p class="paper__title">Global Sustainability Hub, University of Barcelona</p>
   <p class="paper__meta">19 May 2026 · Scientific Conference for the Creation of Sustainable Social Scenarios (<em>"Draw the future from your research"</em>), Hub en Sostenibilitat Global · my talk on off-grid technologies runs from 13:20 to 24:50</p>
+  {% comment %} The embedded player (thumbnail) was hidden at Enoch's request (26 Oct 2026); the link below stays. To restore:
   <div class="video-embed">
     <iframe src="https://www.youtube-nocookie.com/embed/TwQERtViwJA?start=800&amp;end=1490" title="Enoch Ntsiful at the Global Sustainability Hub, 19 May 2026" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+  {% endcomment %}
   <div class="links"><a class="btn-pill" href="https://youtu.be/TwQERtViwJA?t=800">Watch on YouTube (from 13:20)</a></div>
 </div>
 
