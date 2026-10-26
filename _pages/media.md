@@ -44,7 +44,7 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
 
 <div class="paper" id="video">
   <p class="paper__title">Global Sustainability Hub, University of Barcelona</p>
-  <p class="paper__meta">19 May 2026 · Scientific Conference for the Creation of Sustainable Social Scenarios (<em>"Draw the future from your research"</em>), Hub en Sostenibilitat Global · my talk on off-grid technologies runs from 13:20 to 24:50</p>
+  <p class="paper__meta">19 May 2026 · Scientific Conference for the Creation of Sustainable Social Scenarios, Hub en Sostenibilitat Global · My talk on off-grid technologies runs from 13:20 to 24:50</p>
   {% comment %} The embedded player (thumbnail) was hidden at Enoch's request (26 Oct 2026); the link below stays. To restore:
   <div class="video-embed">
     <iframe src="https://www.youtube-nocookie.com/embed/TwQERtViwJA?start=800&amp;end=1490" title="Enoch Ntsiful at the Global Sustainability Hub, 19 May 2026" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
