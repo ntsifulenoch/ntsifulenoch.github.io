@@ -71,8 +71,8 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
 </div>
 
 <div class="paper">
-  <p class="paper__title">Robust Determinants of Multidimensional Energy Poverty</p>
-  <p class="paper__meta">with Pamela Efua Ofori and Isaac K. Ofori</p>
+  <p class="paper__title">Predicting Energy Poverty in Ghana: Insights from Machine Learning Techniques</p>
+  <p class="paper__meta">with Pamela E. Ofori and Isaac K. Ofori</p>
   <div class="links">
     <details>
       <summary>Abstract</summary>
