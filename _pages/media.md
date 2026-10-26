@@ -31,7 +31,7 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
    two more: one in El País and one in a UK outlet. Add each as another .paper block, newest first.
    Coauthors are plain text here. {% endcomment %}
 
-{% comment %} With my coauthors, I am writing a series of op-eds that brings the brief's message to a wider audience ahead of its publication. {% comment %}
+{% comment %} With my coauthors, I am writing a series of op-eds that brings the brief's message to a wider audience ahead of its publication. {% endcomment %}
 
 <div class="paper" id="ara">
   <p class="paper__title"><a href="https://empreses.ara.cat/opinio/l-adaptacio-canvi-climatic-prioritat-cop_129_5879985.html">L'adaptació al canvi climàtic, una prioritat per a la COP</a></p>
