@@ -7,10 +7,14 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
 ## Policy writing
 
 <div class="paper" id="cop31">
-  <p class="paper__title">Unlocking Climate Adaptation at COP31 <span class="status">Forthcoming</span></p>
-  <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a> · Highlight, <em>Les Cahiers de l'Environnement</em>, No. 4, Special Edition: COP and Climate Change</p>
-  {% comment %} The recommendations fold away (Enoch, 26 Oct 2026). {% endcomment %}
+  <p class="paper__title">Unlocking Climate Adaptation at COP31</p>
+  <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a> · <em>Les Cahiers Territoires, Environnements, Risques &amp; Résilience</em>, No. 4, November 2026</p>
+  {% comment %} Published 2 Nov 2026 (HAL hal-05849035). Journal name as printed on the brief; its former name was
+     "Les Cahiers Espace, Environnement, Risques et Résilience". Previous meta line, before publication:
+     Highlight, <em>Les Cahiers de l'Environnement</em>, No. 4, Special Edition: COP and Climate Change
+     The recommendations fold away (Enoch, 26 Oct 2026). {% endcomment %}
   <div class="links">
+    <a class="btn-pill btn-pill--solid" href="https://hal.science/hal-05849035/document"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Read the brief (PDF)</a>
     <details>
       <summary>Recommendations</summary>
       <p>The brief makes three recommendations for COP31:</p>
@@ -22,7 +26,7 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
     </details>
   </div>
 </div>
-{% comment %} Add the PDF or the publisher's link once the issue is out (end of October 2026). {% endcomment %}
+{% comment %} Open-access record: https://hal.science/hal-05849035 (CC BY-SA 4.0). {% endcomment %}
 
 
 ## In the news ahead of the COP31 brief
