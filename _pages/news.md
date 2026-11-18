@@ -14,14 +14,14 @@ Recent and upcoming talks, awards and policy writing.
   {% comment %} On hold until the organisers reply; Enoch may not attend (Oct 2026). Also commented out on the Conferences page and in the CV.
   <li><span class="dated__when">Nov 2026</span><span>Presenting the same paper at the 2nd BCN Development Economics workshop, UAB, on 6 November. <span class="status">Upcoming</span></span></li>
   {% endcomment %}
-  {% comment %} Forthcoming (Enoch, 26 Oct 2026): the "Recommendations" link to /media/#cop31 was removed from this item. {% endcomment %}
-  <li><span class="dated__when">Oct 2026</span><span>Policy brief <em>Unlocking Climate Adaptation at COP31</em>, with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a>, in <em>Les Cahiers de l'Environnement</em>. <span class="status">Forthcoming</span></span></li>
+  {% comment %} Published 2 Nov 2026 (was "Oct 2026 … Forthcoming" in Les Cahiers de l'Environnement). {% endcomment %}
+  <li><span class="dated__when">Nov 2026</span><span>Our policy brief <em>Unlocking Climate Adaptation at COP31</em>, with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a>, is published in <em>Les Cahiers Territoires, Environnements, Risques &amp; Résilience</em>. <a href="https://hal.science/hal-05849035/document">Read it</a> · <a href="/media/#cop31">Recommendations</a></span></li>
   <li><span class="dated__when">Oct 2026</span><span>Op-ed in the newspaper <em>Ara</em>, with François Cohen and Patrick Fahr: <a href="https://empreses.ara.cat/opinio/l-adaptacio-canvi-climatic-prioritat-cop_129_5879985.html"><em>L'adaptació al canvi climàtic, una prioritat per a la COP</em></a>, ahead of our COP31 brief.*</span></li>
   <li><span class="dated__when">Oct 2026</span><span>Presented the off-grid paper at the 3rd Early Career Workshop on Applied Environmental &amp; Climate Change Economics (AECCE), Università di Urbino Carlo Bo, Italy.</span></li>
   <li><span class="dated__when">Sep 2026</span><span>Talk for PhD students at KNUST, <em>Practical steps toward a reproducible research</em>, based on UB's BESTEPS guide. <a href="/teaching/#guest-talks-and-mentoring">Details</a></span></li>
   <li><span class="dated__when">May 2026</span><span>Talk on off-grid technologies at UB's Global Sustainability Hub. <a href="/media/#video">Video</a></span></li>
+  {% comment %} Older than the 5 latest activities (hidden 26 Oct 2026; the Feb 2026 IREA item on 18 Nov 2026, when the brief came out). Move an item above this block to show it again.
   <li><span class="dated__when">Feb 2026</span><span>Presented my job market paper at the 2026 UB|IREA Annual Conference, where it received the IREA Best Working Paper Award, and also presented <em>Bridging the divide</em> working paper at the 1st BCN Development Economics Workshop.</span></li>
-  {% comment %} Older than the 5 latest activities (hidden 26 Oct 2026). Move an item above this block to show it again.
   <li><span class="dated__when">Feb 2026</span><span>Interviewed keynote speakers Antoine Dechezleprêtre and Anna Creti at the XIV IEB International Academic Symposium. <a href="/media/#interviews">Videos</a></span></li>
   <li><span class="dated__when">Dec 2025</span><span>My job market paper won the Best Paper Award at the UB PhD in Economics Workshop.</span></li>
   {% endcomment %}
