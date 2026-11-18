@@ -8,9 +8,6 @@ description: "Conference, seminar and workshop presentations by Enoch Ntsiful."
 
 <ul class="dated">
   <li><span class="dated__when">Dec 2026</span><span>SAEe 2026, Simposio de la Asociación Española de Economía, Universidad de Las Palmas de Gran Canaria, Spain<span class="dated__paper">Paper: <em>Large-Scale Evidence on the Benefits from Off-Grid Technologies</em></span></span></li>
-  {% comment %} On hold until the organisers reply; Enoch may not attend (Oct 2026). Also commented out on What's new and in the CV.
-  <li><span class="dated__when">6 Nov 2026</span><span>2nd BCN Development Economics, Universitat Autònoma de Barcelona<span class="dated__paper">Paper: <em>Large-Scale Evidence on the Benefits from Off-Grid Technologies</em></span></span></li>
-  {% endcomment %}
 </ul>
 
 ## 2026
