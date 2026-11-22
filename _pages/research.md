@@ -26,7 +26,8 @@ description: "Job market paper, doctoral research, publications, working papers 
 
 {% comment %} The other papers of Enoch's PhD thesis; the JMP is the card above. Abstracts fold away in an
    "Abstract" toggle, like the working papers (Enoch, 26 Oct 2026; they were shown in full before).
-   Off-grid: links the latest draft, files/Ntsiful_Offgrid.pdf (for a new draft, replace that file, keeping the name).
+   Off-grid: abstract only, no link to the paper (Enoch, 22 Nov 2026). The former PDF button is kept below in a
+   Liquid comment; to restore it, move it back above the details element.
    E-waste: ongoing, no link (the June 2026 slides stay private in docs/drafts/). Coauthors are not linked. {% endcomment %}
 
 Alongside the job market paper, my doctoral thesis includes these two papers.
@@ -35,10 +36,10 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
   <p class="paper__title">Large-Scale Evidence on the Benefits from Off-Grid Technologies</p>
   <p class="paper__meta">with François Cohen and Jordi J. Teixidó</p>
   <div class="links">
-    <a class="btn-pill btn-pill--solid" href="/files/Ntsiful_Offgrid.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Latest version (PDF)</a>
+    {% comment %}<a class="btn-pill btn-pill--solid" href="/files/Ntsiful_Offgrid.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Latest version (PDF)</a>{% endcomment %}
     <details>
       <summary>Abstract</summary>
-      <p>Evidence on who benefits from off-grid energy, and how, rests largely on single-product studies. We ask how much users benefit from off-grid technologies and through which channels, whom these technologies reach and who gains most, and what makes adoption fail. To answer these questions, we focus on surveys of 79,000 users of six off-grid technologies and seven appliance types in 31 countries between 2020 and 2023. Nine in ten customers report a better quality of life, with little difference across technologies. Each product works through one dominant channel, usually not lower spending. Gains are largest for first-time users and households without a prior grid connection, although adopters are better educated than the populations they come from. Adoption risk depends more on companies than customers: resolving problems and checking that credit buyers understand their contracts are associated with less dissatisfaction.</p>
+      <p>Evidence on who benefits from off-grid energy, and how, rests largely on single-product studies. We pool 474 standardised customer surveys covering almost 79,000 users of six off-grid technologies and seven appliance types, sold by 164 companies in 31 countries between 2020 and 2023. Nine in ten customers report a better quality of life, with little difference across technologies. Each product works through one dominant channel, usually not lower spending. Adopters are better educated than the populations they come from. Adoption risk depends more on companies than customers: resolving problems and checking that credit buyers understand their contracts are associated with less dissatisfaction.</p>
       <p><em>JEL:</em> O13, O33, Q42, I31 · <em>Keywords:</em> off-grid energy, energy access, quality of life, adoption risk</p>
     </details>
   </div>

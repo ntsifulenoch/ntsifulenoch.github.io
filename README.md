@@ -53,7 +53,7 @@ How it is wired: this folder is the GitHub repository. `cv/` is a git subtree of
 ## Updating the PDFs
 
 - Job market paper: replace `files/Ntsiful_JMP.pdf` with the new version, keeping the same name so links never break.
-- Off-grid paper (Doctoral research): replace `files/Ntsiful_Offgrid.pdf` the same way.
+- Off-grid paper (Doctoral research): for now the website shows only its abstract, with no link to the paper. To share a draft again, replace `files/Ntsiful_Offgrid.pdf` the same way and restore the hidden "Latest version (PDF)" button in `_pages/research.md` (and the commented-out link in the CV).
 - On github.com: open the `files` folder, choose *Add file → Upload files*, and upload the PDF under exactly the same name. If the abstract changed, update it in `_pages/research.md` too.
 - CV: never edit the PDF by hand. It is built from `cv/resume_ntsiful.tex`: by `scripts\cv.ps1` on this computer, and automatically on GitHub when the site is built.
 
