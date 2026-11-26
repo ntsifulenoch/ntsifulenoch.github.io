@@ -10,8 +10,6 @@ description: "Teaching experience of Enoch Ntsiful."
   <p class="paper__title">Industrial Organisation <span class="status">Current</span></p>
   <p class="paper__meta">BA Business Administration and Management · Autumn 2025/26 and Autumn 2026/27</p>
 </div>
-{% comment %} The old course-page link (2024 catalogue) was removed at Enoch's request (Oct 2026).
-   Add the new one here, and in the CV, when he sends it. {% endcomment %}
 
 ## Kwame Nkrumah University of Science and Technology (KNUST), Ghana
 

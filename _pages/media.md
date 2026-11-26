@@ -9,10 +9,6 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
 <div class="paper" id="cop31">
   <p class="paper__title">Unlocking Climate Adaptation at COP31</p>
   <p class="paper__meta">with <a href="https://sites.google.com/site/francoiscoheneconomist/home">François Cohen</a> and <a href="https://www.phc.ox.ac.uk/team/patrick-fahr">Patrick Fahr</a> · <em>Les Cahiers Territoires, Environnements, Risques &amp; Résilience</em>, No. 4, November 2026</p>
-  {% comment %} Published 2 Nov 2026 (HAL hal-05849035). Journal name as printed on the brief; its former name was
-     "Les Cahiers Espace, Environnement, Risques et Résilience". Previous meta line, before publication:
-     Highlight, <em>Les Cahiers de l'Environnement</em>, No. 4, Special Edition: COP and Climate Change
-     The recommendations fold away (Enoch, 26 Oct 2026). {% endcomment %}
   <div class="links">
     <a class="btn-pill btn-pill--solid" href="https://hal.science/hal-05849035/document"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Read the brief (PDF)</a>
     <details>
@@ -26,16 +22,8 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
     </details>
   </div>
 </div>
-{% comment %} Open-access record: https://hal.science/hal-05849035 (CC BY-SA 4.0). {% endcomment %}
-
 
 ## In the news ahead of the COP31 brief
-
-{% comment %} Op-eds that carry the brief's message before it is published (Enoch, 26 Oct 2026). Enoch will send
-   two more: one in El País and one in a UK outlet. Add each as another .paper block, newest first.
-   Coauthors are plain text here. {% endcomment %}
-
-{% comment %} With my coauthors, I am writing a series of op-eds that brings the brief's message to a wider audience ahead of its publication. {% endcomment %}
 
 <div class="paper" id="ara">
   <p class="paper__title"><a href="https://empreses.ara.cat/opinio/l-adaptacio-canvi-climatic-prioritat-cop_129_5879985.html">L'adaptació al canvi climàtic, una prioritat per a la COP</a></p>
@@ -43,20 +31,13 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
   <p class="small-note">In Catalan, with Spanish and English versions available on the same page for subscribers only.</p>
 </div>
 
-
 ## Talks on video
 
 <div class="paper" id="video">
   <p class="paper__title">Global Sustainability Hub, University of Barcelona</p>
   <p class="paper__meta">19 May 2026 · Scientific Conference for the Creation of Sustainable Social Scenarios, Hub en Sostenibilitat Global · My talk on off-grid technologies runs from 13:20 to 24:50</p>
-  {% comment %} The embedded player (thumbnail) was hidden at Enoch's request (26 Oct 2026); the link below stays. To restore:
-  <div class="video-embed">
-    <iframe src="https://www.youtube-nocookie.com/embed/TwQERtViwJA?start=800&amp;end=1490" title="Enoch Ntsiful at the Global Sustainability Hub, 19 May 2026" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  {% endcomment %}
   <div class="links"><a class="btn-pill" href="https://youtu.be/TwQERtViwJA?t=800">Watch on YouTube (from 13:20)</a></div>
 </div>
-
 
 ## Interviews
 
@@ -66,11 +47,7 @@ description: "Policy writing, talks on video, interviews and outreach by Enoch N
   <div class="links">
     <a class="btn-pill" href="https://www.ub.edu/ubtv/index.php/colleccio/congressos-i-jornades/xiv-international-academic-symposium-achieving-energy">Watch the interviews (UBtv)</a>
   </div>
-  {% comment %} The individual UBtv video pages returned HTTP 500 on 2026-10-13; the collection page works. Add direct links back if they load:
-       /ubtv/index.php/video/xiv-international-academic-symposium-interview-antoine-dechezlepretre
-       /ubtv/index.php/video/xiv-international-academic-symposium-interview-anna-creti {% endcomment %}
 </div>
-
 
 ## Competitions
 

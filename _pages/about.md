@@ -15,15 +15,13 @@ alt_email: ntsifulenoch0245@gmail.com
 
 Welcome to my page!
 
-**I am on the 2026–27 academic job market.** {% comment %} CONFIRM: add the job-market events where you will interview, or keep this line as is. {% endcomment %}
+**I am on the 2026–27 academic job market.**
 
 I am a PhD candidate in Economics at the [University of Barcelona](https://www.ub.edu/) (expected completion: July 2027) and a member of the [IEB](https://ieb.ub.edu/en/researcher/ntsiful-enoch/) and [GiM](https://www.ub.edu/gim/) research groups. My doctoral research focuses on analysing sustainable household energy technologies as solutions for vulnerable communities, with particular attention to energy access, climate adaptation and welfare outcomes.
 
 I earned my BA and MPhil in Economics from [KNUST](https://www.knust.edu.gh/) (Ghana) as well as an MSc in Quantitative Economics (QED) from the [University of Alicante](https://www.ua.es/en/) (Spain). 
 I enjoy playing musical instruments. 
 
-{% comment %} Labour economics and gender economics were removed from the secondary fields at Enoch's request (26 Oct 2026). To restore, use this line instead:
-**Secondary fields:** health economics, international trade, labour economics, gender economics, & applications of machine learning in economics {% endcomment %}
 **Primary fields:** development economics, environmental economics, energy economics  
 **Secondary fields:** health economics, international trade, & applications of machine learning in economics  
   

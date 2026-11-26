@@ -4,8 +4,6 @@ title: "Research"
 description: "Job market paper, doctoral research, publications, working papers and work in progress by Enoch Ntsiful."
 ---
 
-{% comment %} The job market paper card. The sidebar's "Job Market Paper" link points here
-   (#job-market-paper). Only the latest PDF is linked; the title is deliberately not a link. {% endcomment %}
 <div class="jmp-card" id="job-market-paper">
   <p class="jmp-card__label">Job Market Paper</p>
   <p class="jmp-card__title">Refrigeration, Food Security, and Nutrition: Evidence from Ghana</p>
@@ -21,14 +19,7 @@ description: "Job market paper, doctoral research, publications, working papers 
   </div>
 </div>
 
-
 ## Doctoral research
-
-{% comment %} The other papers of Enoch's PhD thesis; the JMP is the card above. Abstracts fold away in an
-   "Abstract" toggle, like the working papers (Enoch, 26 Oct 2026; they were shown in full before).
-   Off-grid: abstract only, no link to the paper (Enoch, 22 Nov 2026). The former PDF button is kept below in a
-   Liquid comment; to restore it, move it back above the details element.
-   E-waste: ongoing, no link (the June 2026 slides stay private in docs/drafts/). Coauthors are not linked. {% endcomment %}
 
 Alongside the job market paper, my doctoral thesis includes these two papers.
 
@@ -36,7 +27,6 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
   <p class="paper__title">Large-Scale Evidence on the Benefits from Off-Grid Technologies</p>
   <p class="paper__meta">with François Cohen and Jordi J. Teixidó</p>
   <div class="links">
-    {% comment %}<a class="btn-pill btn-pill--solid" href="/files/Ntsiful_Offgrid.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Latest version (PDF)</a>{% endcomment %}
     <details>
       <summary>Abstract</summary>
       <p>Evidence on who benefits from off-grid energy, and how, rests largely on single-product studies. We pool 474 standardised customer surveys covering almost 79,000 users of six off-grid technologies and seven appliance types, sold by 164 companies in 31 countries between 2020 and 2023. Nine in ten customers report a better quality of life, with little difference across technologies. Each product works through one dominant channel, usually not lower spending. Adopters are better educated than the populations they come from. Adoption risk depends more on companies than customers: resolving problems and checking that credit buyers understand their contracts are associated with less dissatisfaction.</p>
@@ -55,9 +45,6 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
   </div>
 </div>
 
-
-{% comment %} Order (Enoch, 26 Oct 2026): pre-doctoral publications come before the working papers.
-   The heading was "Peer-reviewed publications" until then. {% endcomment %}
 ## Pre-doctoral publications
 
 <div class="paper">
@@ -90,10 +77,7 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
   <div class="links"><a class="btn-pill" href="https://doi.org/10.1108/JHASS-08-2023-0091">DOI</a></div>
 </div>
 
-
 ## Working papers
-
-{% comment %} Working papers: coauthor names are plain text, never links (Enoch, Oct 2026). {% endcomment %}
 
 <div class="paper">
   <p class="paper__title">Bridging the divide: Housing infrastructure and energy poverty</p>
@@ -128,21 +112,7 @@ Alongside the job market paper, my doctoral thesis includes these two papers.
   </div>
 </div>
 
-
 ## Work in progress
-
-{% comment %} Enoch, 26 Oct 2026: only the durable-appliance paper is shown. The others are kept here; move a line
-   above this note to show it again.
-- Dwelling Type, Shared Amenities, and Neighbourhood Conflict
-- ICT Goods Trade, Environmental Degradation, Dematerialization and Efficiency Gains
-- ICT Goods Trade and Income Inequality Dynamics: A Global Evidence
-- Sibling Gender, Inheritance Customs Law, and Child Education: Evidence from Patrilineal and Matrilineal Societies in Ghana (with Hardi Ahmed and Kwabena Nkansah)
-- Examining the prospects of the African Continental Free Trade Area (AfCFTA) Agreement: Does trade with South Africa promote growth in the SADC region? (with Bright Tetteh and Josephine Asare)
-- Financial institution development and renewable electricity generation in EMICs and LICs (with Franklin Bedakiyiba Baajike and John Bosco Dramani)
-- Electricity transmission and distributional losses, energy security, and economic growth in Ghana: The role of institutional quality (with Franklin Bedakiyiba Baajike and Asaki Foster)
-- Frontier Technology Readiness, Emissions, and Growth: A Global Decoupling and Decomposition Analysis (with Franklin Bedakiyiba Baajike)
-- When the Rain Fails: The 2015/16 El Niño Drought and Intimate-Partner Violence in South Africa (with Bright Tetteh)
-{% endcomment %}
 
 - Does Durable Appliance Ownership Improve Intrahousehold Time Poverty and Child Literacy?  
   <span class="small-note">Master's thesis. </span>
